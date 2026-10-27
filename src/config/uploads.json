@@ -1,0 +1,6 @@
+{
+  "maxPhotos": 3,
+  "maxCombinedPhotoBytes": 3000000,
+  "maxRequestBytes": 4000000,
+  "combinedSizeMessage": "Photos must total 3 MB or less. Choose smaller images or remove a photo."
+}

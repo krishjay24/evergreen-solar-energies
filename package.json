@@ -1,0 +1,48 @@
+{
+  "name": "evergreen-solar-energies",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/generate-sitemap.mjs",
+    "lint": "eslint .",
+    "test:hero": "node scripts/verify-hero.mjs",
+    "test:about": "node scripts/verify-about.mjs",
+    "test:enquiries": "node --test scripts/enquiries.test.mjs",
+    "test:whatsapp": "node --experimental-strip-types --test scripts/whatsapp-enquiries.test.mjs",
+    "test:whatsapp:browser": "node scripts/verify-site.mjs --whatsapp-only",
+    "test:ui": "node scripts/verify-site.mjs --ui-only",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "5.3.0",
+    "@gsap/react": "2.1.2",
+    "@hookform/resolvers": "5.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "gsap": "3.15.0",
+    "lucide-react": "1.59.0",
+    "motion": "14.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "7.80.0",
+    "react-router": "8.5.0",
+    "tailwindcss": "^4.3.3",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "sharp": "0.35.5",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4"
+  }
+}

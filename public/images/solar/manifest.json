@@ -1,0 +1,1446 @@
+{
+  "referenceOnly": true,
+  "notice": "These photographs do not depict Evergreen projects or employees and imply no endorsement.",
+  "photos": [
+    {
+      "id": "home-about-team",
+      "title": "Rumsey 000452 172902 518310 4578 (36792942632).jpg",
+      "usage": "Homepage About",
+      "alt": "A solar installation supervisor inspecting rooftop panels",
+      "author": "Photo by Kirsten Rumsey. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Kirsten Rumsey. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Rumsey_000452_172902_518310_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rumsey_000452_172902_518310_4578_(36792942632).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Rumsey_000452_172902_518310_4578_%2836792942632%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rumsey_000452_172902_518310_4578_(36792942632).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1278,
+      "sourceSha1": "1bdc8ed26b7ab7c0881e5e7f0063556be257e021",
+      "downloadSha256": "dd8a59d02a90c72f5e526852389ed261ac68ff04a913f524e45f72f6dc88bd39",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/home-about-team-480.webp",
+          "width": 480,
+          "bytes": 42592,
+          "sha256": "0f11fefa8036251da66902337535c7fbfc52f32c222f4b9d9a2ec26c2205ac1d"
+        },
+        {
+          "filename": "/images/solar/home-about-team-960.webp",
+          "width": 960,
+          "bytes": 142754,
+          "sha256": "f7a1d2e53caef57ace625a1561145380ca54ab426384c87d2a3530535c7e7f26"
+        },
+        {
+          "filename": "/images/solar/home-about-team-1280.webp",
+          "width": 1280,
+          "bytes": 224774,
+          "sha256": "a001092f4184fc744a40c0a0ffda16c56f38f6dd5c71786d915a2233a544d636"
+        }
+      ]
+    },
+    {
+      "id": "home-about-technology",
+      "title": "Solar Panel Flat.JPG",
+      "usage": "Homepage technology",
+      "alt": "Close-up of photovoltaic panels and their cell grid",
+      "author": "Ranjithsiji",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Ranjithsiji\" title=\"User:Ranjithsiji\">Ranjithsiji</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_Panel_Flat.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Solar_Panel_Flat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "derivativeLicense": "CC BY-SA 3.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 2592,
+      "originalHeight": 1944,
+      "sourceSha1": "3b3b83b82cc5d10755f1b7fa76bb7124cd0d88a1",
+      "downloadSha256": "c1d4f866a103de2e77d2657b7b513b358555a899ab14b260945b156c618d18f2",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/home-about-technology-480.webp",
+          "width": 480,
+          "bytes": 29280,
+          "sha256": "3dc9bbb2f0fe0b28197ed5195c92785b18087540356532e92ab03fb5e2df7179"
+        },
+        {
+          "filename": "/images/solar/home-about-technology-960.webp",
+          "width": 960,
+          "bytes": 100796,
+          "sha256": "8b31f1cfd619a15d55f5e9188ac827de2bc53c7b58ed8e3421102d04891424f0"
+        },
+        {
+          "filename": "/images/solar/home-about-technology-1280.webp",
+          "width": 1280,
+          "bytes": 186244,
+          "sha256": "01f6de4a0a143bb0637dba34027baa1d2d692fc03c5665e3acc68f2c732cfbbc"
+        }
+      ]
+    },
+    {
+      "id": "home-residential",
+      "title": "Rooftop Solar panels on homes in Mehsana, Gujarat, India.jpg",
+      "usage": "Homepage residential service",
+      "alt": "Rooftop solar panels on homes in Mehsana, Gujarat",
+      "author": "Nizil Shah",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Nizil_Shah\" title=\"User:Nizil Shah\">Nizil Shah</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rooftop_Solar_panels_on_homes_in_Mehsana,_Gujarat,_India.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Rooftop_Solar_panels_on_homes_in_Mehsana%2C_Gujarat%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 4080,
+      "originalHeight": 3072,
+      "sourceSha1": "fe049b75e68dad2d648dfe4bee88054dc1185aed",
+      "downloadSha256": "4ae1a4ee370c6ee6c97bf8eb4a925ee882aca2b50413cf156b99c3f23019ebbe",
+      "changes": "Empty sky cropped; resized and encoded as responsive WebP. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/home-residential-480.webp",
+          "width": 480,
+          "bytes": 24862,
+          "sha256": "2dcaa0547074cdb4bdef58ecf944a33628b48fc16322781d159961d397996dee"
+        },
+        {
+          "filename": "/images/solar/home-residential-960.webp",
+          "width": 960,
+          "bytes": 96384,
+          "sha256": "81dc75cc7c299c55e64a713384252457554fe0594a97eb6f95d5b242114bf1a9"
+        },
+        {
+          "filename": "/images/solar/home-residential-1280.webp",
+          "width": 1280,
+          "bytes": 173458,
+          "sha256": "3bc3f585a6d12e40b68f29ddf24d2b2da3ce77ec0b0a20371da2f349a68e9d14"
+        }
+      ]
+    },
+    {
+      "id": "home-commercial",
+      "title": "A Rooftop Solar System of Delhi Metro at the Anand Vihar metro station.jpg",
+      "usage": "Homepage commercial service",
+      "alt": "Large rooftop solar array at Anand Vihar metro station in Delhi",
+      "author": "Kool Nerd 123",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Kool_Nerd_123\" title=\"User:Kool Nerd 123\">Kool Nerd 123</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Rooftop_Solar_System_of_Delhi_Metro_at_the_Anand_Vihar_metro_station.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/A_Rooftop_Solar_System_of_Delhi_Metro_at_the_Anand_Vihar_metro_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 8000,
+      "originalHeight": 6000,
+      "sourceSha1": "7680dfcf3406d59c33354bca19766ee28040da2a",
+      "downloadSha256": "c51c786775b298101e1144da90c2d3c09fbca4f353465103ea816a53884c3888",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/home-commercial-480.webp",
+          "width": 480,
+          "bytes": 22508,
+          "sha256": "ff78bc5d51da282d4d1a6fc448aa435690c2a3cfa6f9ee5123056ff60d746bfa"
+        },
+        {
+          "filename": "/images/solar/home-commercial-960.webp",
+          "width": 960,
+          "bytes": 96758,
+          "sha256": "3e4cc10ea4079ac982701376b5e0e654f5dfa7fc1b64e8082b9f113f634910e1"
+        },
+        {
+          "filename": "/images/solar/home-commercial-1280.webp",
+          "width": 1280,
+          "bytes": 179826,
+          "sha256": "2ebdac845820ed6460c6cb4fbcdf74775810658285536727a3fb694be7d418cc"
+        }
+      ]
+    },
+    {
+      "id": "home-agricultural",
+      "title": "Solar Panels in Farm, India.jpg",
+      "usage": "Homepage agricultural service",
+      "alt": "Solar panels supplying a farm in Tamil Nadu, India",
+      "author": "PWRDF",
+      "authorOriginal": "PWRDF",
+      "attribution": "https://www.flickr.com/photos/45005153@N07/5257440405/in/photostream/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_Panels_in_Farm,_India.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Solar_Panels_in_Farm%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "derivativeLicense": "CC BY 2.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 2848,
+      "originalHeight": 4288,
+      "sourceSha1": "62b7b8811899d755a2821bc0a5f31b62ef531c4c",
+      "downloadSha256": "00f1011be427184068d953d715ba671cc729594034ffd2bb68414598b8fda47c",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/home-agricultural-480.webp",
+          "width": 480,
+          "bytes": 48434,
+          "sha256": "a9feec0838d2ba6e891f1910c78b614afe8f70ac444a2a70e34b882a1b0a94ed"
+        },
+        {
+          "filename": "/images/solar/home-agricultural-960.webp",
+          "width": 960,
+          "bytes": 183384,
+          "sha256": "4962d4f30fa49543ea9cfdbc897e2bdda7ed93cada573310381a70c83bee18ae"
+        },
+        {
+          "filename": "/images/solar/home-agricultural-1280.webp",
+          "width": 1280,
+          "bytes": 303712,
+          "sha256": "7af50a9b8c55858eade31607dd9716ed63f8fc0c9d7ab7b8d98fed4b239b54b3"
+        }
+      ]
+    },
+    {
+      "id": "solutions-residential",
+      "title": "Solar panels on house roof.jpg",
+      "usage": "Solar Solutions residential",
+      "alt": "Photovoltaic panels on a residential roof near Boston, Massachusetts",
+      "author": "Gray Watson User:E090",
+      "authorOriginal": "Gray Watson <a href=\"//commons.wikimedia.org/wiki/User:E090\" title=\"User:E090\">User:E090</a>",
+      "attribution": "https://256stuff.com/solar/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_panels_on_house_roof.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Solar_panels_on_house_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "derivativeLicense": "CC BY-SA 3.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 3872,
+      "originalHeight": 2592,
+      "sourceSha1": "2b0642fca8a3d12ff4119cd772738e5efa26dfe8",
+      "downloadSha256": "82ebbaa3a63273081c986bbe3959906a803c1eb7571e40b60973a913dd6dbd23",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/solutions-residential-480.webp",
+          "width": 480,
+          "bytes": 56412,
+          "sha256": "897fa32243fd062bd828ad9fd8d0f803d9b0e431c46d4c2a9361a7cccaf0726d"
+        },
+        {
+          "filename": "/images/solar/solutions-residential-960.webp",
+          "width": 960,
+          "bytes": 243686,
+          "sha256": "f4cc648c3a37f38acbd756d2d64f0ba3cf956106945d1a98bfda8d9dc90b3d30"
+        },
+        {
+          "filename": "/images/solar/solutions-residential-1280.webp",
+          "width": 1280,
+          "bytes": 451688,
+          "sha256": "94f32408093822ded26ded0a360693cf54b8a1a0eadf374a3a6aaff28baf4173"
+        }
+      ]
+    },
+    {
+      "id": "solutions-commercial",
+      "title": "Solar panels on Outpatient Department (OPD) building's roof of All India Institute of Medical Sciences, Kalyani - এইমস কল্যাণীতে সোলার প্যানেল ১.jpg",
+      "usage": "Solar Solutions commercial",
+      "alt": "Rooftop photovoltaic arrays on a large healthcare building in Kalyani, India",
+      "author": "খাঁ শুভেন্দু",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:%E0%A6%96%E0%A6%BE%E0%A6%81_%E0%A6%B6%E0%A7%81%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81\" title=\"User:খাঁ শুভেন্দু\">খাঁ শুভেন্দু</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_panels_on_Outpatient_Department_(OPD)_building%27s_roof_of_All_India_Institute_of_Medical_Sciences,_Kalyani_-_%E0%A6%8F%E0%A6%87%E0%A6%AE%E0%A6%B8_%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3%E0%A7%80%E0%A6%A4%E0%A7%87_%E0%A6%B8%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0_%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2_%E0%A7%A7.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Solar_panels_on_Outpatient_Department_%28OPD%29_building%27s_roof_of_All_India_Institute_of_Medical_Sciences%2C_Kalyani_-_%E0%A6%8F%E0%A6%87%E0%A6%AE%E0%A6%B8_%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3%E0%A7%80%E0%A6%A4%E0%A7%87_%E0%A6%B8%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0_%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2_%E0%A7%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 4032,
+      "originalHeight": 1908,
+      "sourceSha1": "15779bdb0d161a2342e6e7655f6fbbe636357bf7",
+      "downloadSha256": "3ce20e84974fdeec6190579dde3c38d990309b4b3248cae20aa7106edc59dcb8",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/solutions-commercial-480.webp",
+          "width": 480,
+          "bytes": 19010,
+          "sha256": "5905cdd9b0ac94319907ef1fd803b4ac319f742f902bf8da756d1472f190273d"
+        },
+        {
+          "filename": "/images/solar/solutions-commercial-960.webp",
+          "width": 960,
+          "bytes": 78482,
+          "sha256": "981abd7a60f041fa892a54c34f9f530fb439ab755949101df92d06c64a6c69f6"
+        },
+        {
+          "filename": "/images/solar/solutions-commercial-1280.webp",
+          "width": 1280,
+          "bytes": 146046,
+          "sha256": "3876be36a7101cde891cb4d9ebb8fff531d822f2255c38e78bacb0ae8767ecbd"
+        }
+      ]
+    },
+    {
+      "id": "solutions-agricultural",
+      "title": "Solar Power Plant Telangana II in state of Telangana, India, 12-MWp DCb.jpg",
+      "usage": "Solar Solutions ground-mounted",
+      "alt": "Ground-mounted solar rows in Telangana, India",
+      "author": "Thomas Lloyd Group",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Thomas_Lloyd_Group&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Thomas Lloyd Group (page does not exist)\">Thomas Lloyd Group</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_Power_Plant_Telangana_II_in_state_of_Telangana,_India,_12-MWp_DCb.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Solar_Power_Plant_Telangana_II_in_state_of_Telangana%2C_India%2C_12-MWp_DCb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 5472,
+      "originalHeight": 3078,
+      "sourceSha1": "40a8670a74d9e28265fbffa69e209bdee93d4f1a",
+      "downloadSha256": "51070b69733aad1b69ac467eb6d24f57a8c5f852742c1e2249974b9e84389180",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/solutions-agricultural-480.webp",
+          "width": 480,
+          "bytes": 34472,
+          "sha256": "205b0b941c8a33667609b519207be06ebadf292b94b5099176da60a01b8d80dc"
+        },
+        {
+          "filename": "/images/solar/solutions-agricultural-960.webp",
+          "width": 960,
+          "bytes": 179664,
+          "sha256": "306c20975a3d3d414e1f40f193af48eee0cdd8945a56f2f89d3f5f5af3690f39"
+        },
+        {
+          "filename": "/images/solar/solutions-agricultural-1280.webp",
+          "width": 1280,
+          "bytes": 338902,
+          "sha256": "b1363bb8d36e8812ea1bc88db702382ccc860d5897f031933e862b84a60d29c7"
+        }
+      ]
+    },
+    {
+      "id": "impact-clean",
+      "title": "Panneaux solaires dans le désert du Thar (Rajasthan).jpg",
+      "usage": "Impact clean energy",
+      "alt": "Sunlit photovoltaic panels in the Thar Desert, Rajasthan",
+      "author": "Ji-Elle",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Ji-Elle\" title=\"User:Ji-Elle\">Ji-Elle</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panneaux_solaires_dans_le_d%C3%A9sert_du_Thar_(Rajasthan).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Panneaux_solaires_dans_le_d%C3%A9sert_du_Thar_%28Rajasthan%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 5472,
+      "originalHeight": 3648,
+      "sourceSha1": "bd5b191f9f8642b1c01e4272962f46d391015584",
+      "downloadSha256": "7eb0ab4b34bb7f25163e2de9abba8ebc4232039f69492425b5bb61c1f7234a17",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/impact-clean-480.webp",
+          "width": 480,
+          "bytes": 32188,
+          "sha256": "05a2a9d73ade3a9964262c0be356f5879530b6eb7529b5596094612d34c86655"
+        },
+        {
+          "filename": "/images/solar/impact-clean-960.webp",
+          "width": 960,
+          "bytes": 144514,
+          "sha256": "37f77dedbcfc2876de53d42cb54e3611c084adfa1f13c53fcc83a263638dfd13"
+        },
+        {
+          "filename": "/images/solar/impact-clean-1280.webp",
+          "width": 1280,
+          "bytes": 270616,
+          "sha256": "8b57025a1b4657daf51ff73c9c611de7b3bbb3991c8ef7420642fc165c251115"
+        }
+      ]
+    },
+    {
+      "id": "impact-bills",
+      "title": "Bhopal Sambhavna Trust 01 (14041227704).jpg",
+      "usage": "Impact electricity use",
+      "alt": "A rooftop solar installation at the Sambhavna Trust in Bhopal",
+      "author": "Stefan Krasowski from New York, NY, USA",
+      "authorOriginal": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/65638600@N05\">Stefan Krasowski</a> from New York, NY, USA",
+      "attribution": "Bhopal Sambhavna Trust 01",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhopal_Sambhavna_Trust_01_(14041227704).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bhopal_Sambhavna_Trust_01_%2814041227704%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "derivativeLicense": "CC BY 2.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 4000,
+      "originalHeight": 3000,
+      "sourceSha1": "09402ce03e55e238b46ee328f8584358ef3a90b2",
+      "downloadSha256": "d64db4a0518f4b0530486f3ed40213e24ff3b86fdd8237740c481b3ea4d441f9",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/impact-bills-480.webp",
+          "width": 480,
+          "bytes": 37928,
+          "sha256": "ee3fc351419febd8973971b7f32f68a548e41964f46d5e09f8c6f7bd0ebb2c3b"
+        },
+        {
+          "filename": "/images/solar/impact-bills-960.webp",
+          "width": 960,
+          "bytes": 156626,
+          "sha256": "10e29925c5467bbdce19a5bbc7bc3de76c91fbde58e1ee972f373b5ff58ea600"
+        },
+        {
+          "filename": "/images/solar/impact-bills-1280.webp",
+          "width": 1280,
+          "bytes": 283000,
+          "sha256": "299887b76275b163ef661d5f5bcda7a38014f51bb45a800cb07bbe1a60fedbe4"
+        }
+      ]
+    },
+    {
+      "id": "impact-independence",
+      "title": "Solar Installation in Kenya.jpg",
+      "usage": "Impact energy independence",
+      "alt": "Solar power equipment connected at an installation in Kenya",
+      "author": "PowerAfricaSolar",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PowerAfricaSolar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PowerAfricaSolar (page does not exist)\">PowerAfricaSolar</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_Installation_in_Kenya.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Solar_Installation_in_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 3024,
+      "originalHeight": 4032,
+      "sourceSha1": "047a421457f5a2c2af4a8ba79c1622d9222ed3af",
+      "downloadSha256": "202c4bbe2023ab5a8afba0b2436406615d1efdb39ed1b92b2548500922b34226",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/impact-independence-480.webp",
+          "width": 480,
+          "bytes": 24068,
+          "sha256": "4db68bc4acedb354fe410360b18ac24ec4e083dbb2305d42903e1d335ad61d29"
+        },
+        {
+          "filename": "/images/solar/impact-independence-960.webp",
+          "width": 960,
+          "bytes": 83304,
+          "sha256": "154afacccd2cae624bd8b7a49709388b1d38a2797b5639a99c074ea47d3e1124"
+        },
+        {
+          "filename": "/images/solar/impact-independence-1280.webp",
+          "width": 1280,
+          "bytes": 146922,
+          "sha256": "aee1afa74538a28859ea97e72b88cdaa3cd216842933f4b72140c81b2f7c3c0d"
+        }
+      ]
+    },
+    {
+      "id": "impact-value",
+      "title": "Solar Plant powering the Cochin International Airport.jpg",
+      "usage": "Impact long-term value",
+      "alt": "Rows of photovoltaic panels supplying Cochin International Airport",
+      "author": "Pradeep Mohandas",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Prad2609\" title=\"User:Prad2609\">Pradeep Mohandas</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_Plant_powering_the_Cochin_International_Airport.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Solar_Plant_powering_the_Cochin_International_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 2340,
+      "originalHeight": 4160,
+      "sourceSha1": "151e29ca675b0994c3151edfee8bdf569a187108",
+      "downloadSha256": "9ee9cb3d0c8c4eb332564995653559111a9232df8c455dbd7839979d2fcb1570",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/impact-value-480.webp",
+          "width": 480,
+          "bytes": 48398,
+          "sha256": "0f001f70b7683da5cad73a1e5d0892dbad654984b02f23f9cdf988b98b4060bd"
+        },
+        {
+          "filename": "/images/solar/impact-value-960.webp",
+          "width": 960,
+          "bytes": 197408,
+          "sha256": "20e0ea3b34eac7a1fca3ca33e55c299a5c8efe16336bc494db1fb1c309ccce24"
+        },
+        {
+          "filename": "/images/solar/impact-value-1280.webp",
+          "width": 1280,
+          "bytes": 346074,
+          "sha256": "b6161309b834d9c56148d636ee84ee94334cc43e100ffff21e070f49469dd284"
+        }
+      ]
+    },
+    {
+      "id": "impact-future",
+      "title": "Solar Power Plant Telangana II in state of Telangana, India, 12-MWp DC.jpg",
+      "usage": "Impact sustainable future",
+      "alt": "Aerial view of ground-mounted solar arrays in Telangana, India",
+      "author": "Thomas Lloyd Group",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Thomas_Lloyd_Group&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Thomas Lloyd Group (page does not exist)\">Thomas Lloyd Group</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_Power_Plant_Telangana_II_in_state_of_Telangana,_India,_12-MWp_DC.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Solar_Power_Plant_Telangana_II_in_state_of_Telangana%2C_India%2C_12-MWp_DC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1080,
+      "sourceSha1": "6669b536f751bcd1dbe39d12894deab0f28cf85a",
+      "downloadSha256": "c33ceecc1b74b381a8c4bb2e17b01406898092a5fff521b0ef9197acd21c04b5",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/impact-future-480.webp",
+          "width": 480,
+          "bytes": 39692,
+          "sha256": "a87b1d325ae110272b48c3453ece58375a8897f3f665482878e03804de92ad4c"
+        },
+        {
+          "filename": "/images/solar/impact-future-960.webp",
+          "width": 960,
+          "bytes": 189148,
+          "sha256": "546d8514ae1a3c87efeffa763c3613b60ec7b31f922a5fa42ebab71c41985045"
+        },
+        {
+          "filename": "/images/solar/impact-future-1280.webp",
+          "width": 1280,
+          "bytes": 360762,
+          "sha256": "14bc66eb82cbc513ca3356a3fa437a2af43a9f01ca6c6a814b81eecd6135579e"
+        }
+      ]
+    },
+    {
+      "id": "journey-discover",
+      "title": "Sustainability Solar Panel.jpg",
+      "usage": "Homepage journey Discover",
+      "alt": "A photovoltaic installation in natural daylight",
+      "author": "Wikieditor11221",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wikieditor11221&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wikieditor11221 (page does not exist)\">Wikieditor11221</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sustainability_Solar_Panel.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sustainability_Solar_Panel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 5582,
+      "originalHeight": 3721,
+      "sourceSha1": "a94fbc0badd0504a2d9107434db5ebe5f3d31733",
+      "downloadSha256": "608af830b6cfb452e0c2de819c5e9ef79e23408fbf992d43426d73e1f4b8bf3f",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/journey-discover-480.webp",
+          "width": 480,
+          "bytes": 29700,
+          "sha256": "640ee39ed3adf4c5e59dd10ab816d91ff99490c75f15378044faa87c70eb676c"
+        },
+        {
+          "filename": "/images/solar/journey-discover-960.webp",
+          "width": 960,
+          "bytes": 99872,
+          "sha256": "3e5739a5fbe591ddebd82438c0117d0bfd6c22a1239970b52939c54efdbbc82b"
+        },
+        {
+          "filename": "/images/solar/journey-discover-1280.webp",
+          "width": 1280,
+          "bytes": 165544,
+          "sha256": "98d8828d752180162579d34259edf7514445729265f60ecb1ae5d9286c37e52a"
+        }
+      ]
+    },
+    {
+      "id": "journey-understand",
+      "title": "Solar park inverter and mounts.jpg",
+      "usage": "Homepage journey Understand",
+      "alt": "Inverter equipment and mounting structures at a solar park",
+      "author": "Lauri Veerde",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Veerdelauri\" title=\"User:Veerdelauri\">Lauri Veerde</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_park_inverter_and_mounts.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Solar_park_inverter_and_mounts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 16856,
+      "originalHeight": 8428,
+      "sourceSha1": "b4d6d38cf8e60c657313a575984c72bb11126c93",
+      "downloadSha256": "481650f2af294fde2323f8e9e35a82b949c67d7cb67d019f27c42cadae99c949",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/journey-understand-480.webp",
+          "width": 480,
+          "bytes": 22234,
+          "sha256": "e19065e4bcdf1aeae01b2a0992e89402ebec3ab64fd1dd675280bff5bbed8d9d"
+        },
+        {
+          "filename": "/images/solar/journey-understand-960.webp",
+          "width": 960,
+          "bytes": 98464,
+          "sha256": "bbdcc577d125ee20cb73dee4a19bee51570736a8d7085ad27c28b2740b6e7133"
+        },
+        {
+          "filename": "/images/solar/journey-understand-1280.webp",
+          "width": 1280,
+          "bytes": 180952,
+          "sha256": "d01f440c92cccf2809ab1f626f7b069cbd3b2ba5592771cf3105e832fe3b0a15"
+        }
+      ]
+    },
+    {
+      "id": "journey-assess",
+      "title": "Technician working on a solar panel installation (9232).jpg",
+      "usage": "Homepage journey Assess",
+      "alt": "A technician carrying a solar module during rooftop installation",
+      "author": "Stephen Yang / The Solutions Project",
+      "authorOriginal": "<div class=\"fn value\">\nStephen Yang / The Solutions Project</div>",
+      "attribution": "Flickr.com",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Technician_working_on_a_solar_panel_installation_(9232).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Technician_working_on_a_solar_panel_installation_%289232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "derivativeLicense": "CC BY 2.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 5760,
+      "originalHeight": 3840,
+      "sourceSha1": "f6a01c7577e19564b9022c7f1c1346976d85429c",
+      "downloadSha256": "2ad74bff5462bcf29c048475ea500c363367bd12b7a13b62b511a62af7737762",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/journey-assess-480.webp",
+          "width": 480,
+          "bytes": 25078,
+          "sha256": "40cdf82450b6615af1c4cc8e3fd2b024f1d2d1f6de3c203b360b544536582435"
+        },
+        {
+          "filename": "/images/solar/journey-assess-960.webp",
+          "width": 960,
+          "bytes": 78268,
+          "sha256": "d948f1e4452a81eee186ee418b5f7c65499100cf2e35e28fec59654691748582"
+        },
+        {
+          "filename": "/images/solar/journey-assess-1280.webp",
+          "width": 1280,
+          "bytes": 120094,
+          "sha256": "6b259c55d7bba2eb0c85fa29722eb3a14e1a1a097c87acd3369bf4a44ba85fca"
+        }
+      ]
+    },
+    {
+      "id": "journey-connect",
+      "title": "Batucal 000287 173190 518721 4578 (36963957825).jpg",
+      "usage": "Homepage journey Connect",
+      "alt": "Solar installers working together on a multi-family building rooftop",
+      "author": "Photo by Kristelle Batucal. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Kristelle Batucal. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Batucal_000287_173190_518721_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Batucal_000287_173190_518721_4578_(36963957825).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Batucal_000287_173190_518721_4578_%2836963957825%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Batucal_000287_173190_518721_4578_(36963957825).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1278,
+      "sourceSha1": "bb4508d5be63ef0b57f823fc47f8ac3e5e0e8f7e",
+      "downloadSha256": "8a97b53ef2c7f139593d72c9d79ad798f5b7d12df959d74e8f89dac2cbab48a0",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/journey-connect-480.webp",
+          "width": 480,
+          "bytes": 17710,
+          "sha256": "cc05d2ac7f92d45d1bed257a4517ea7c52c3667f9471c67120ca663b3aca6d6f"
+        },
+        {
+          "filename": "/images/solar/journey-connect-960.webp",
+          "width": 960,
+          "bytes": 51474,
+          "sha256": "60d46b3a64e4055a29feb865da579c1f33102f2abf8e9e65797b38df9a88518d"
+        },
+        {
+          "filename": "/images/solar/journey-connect-1280.webp",
+          "width": 1280,
+          "bytes": 81188,
+          "sha256": "dd7fca7b56546a36643d59c75627b2e3082d7b4b96d2088b72f059c413f26efc"
+        }
+      ]
+    },
+    {
+      "id": "about-engineers",
+      "title": "Technicians working on a solar panel installation (9235).jpg",
+      "usage": "About page engineers",
+      "alt": "Solar engineers reviewing installation work on a roof",
+      "author": "Stephen Yang / The Solutions Project",
+      "authorOriginal": "<div class=\"fn value\">\nStephen Yang / The Solutions Project</div>",
+      "attribution": "Flickr.com",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Technicians_working_on_a_solar_panel_installation_(9235).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Technicians_working_on_a_solar_panel_installation_%289235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Technicians_working_on_a_solar_panel_installation_(9235).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 5317,
+      "originalHeight": 3544,
+      "sourceSha1": "1afd367e9a85cf7cbb1cd86d45f1ac38e4f6f7b7",
+      "downloadSha256": "b5a594656f98604885c14f460548a72e5071113ae3637fd1dd8126536f099254",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/about-engineers-480.webp",
+          "width": 480,
+          "bytes": 20902,
+          "sha256": "71d04b222b071d05b116a2474f4a361ffede4f334587673e9b64b6f09ba07031"
+        },
+        {
+          "filename": "/images/solar/about-engineers-960.webp",
+          "width": 960,
+          "bytes": 65102,
+          "sha256": "f25d409aad4089fa1a2fe013334d86bbb669d2e58cfdd558cee2cbb67494a9ee"
+        },
+        {
+          "filename": "/images/solar/about-engineers-1280.webp",
+          "width": 1280,
+          "bytes": 100124,
+          "sha256": "1c23e113c25c6a1d2168c72e2a84d633d985c34f578c878bdb6ce014f0c73038"
+        }
+      ]
+    },
+    {
+      "id": "about-planning",
+      "title": "Montenero 000419 166004 510349 4578 (36155265763).jpg",
+      "usage": "About page technical work",
+      "alt": "A solar technician coordinating rooftop equipment and installation work",
+      "author": "Photo by Ernesto Montenero. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Ernesto Montenero. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Montenero_000419_166004_510349_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Montenero_000419_166004_510349_4578_(36155265763).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Montenero_000419_166004_510349_4578_%2836155265763%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Montenero_000419_166004_510349_4578_(36155265763).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1769,
+      "originalHeight": 1920,
+      "sourceSha1": "c1e9731b65f47b297d13e8b051b2b2005762ea14",
+      "downloadSha256": "a015e42cfd14dde0eb93226ceddf183c87e9f76b617daf1ef75c6748e86885e8",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/about-planning-480.webp",
+          "width": 480,
+          "bytes": 12124,
+          "sha256": "c8ad38a67c214a830719f9dcb08ec7fa5108d1ce29ccdaf13fa3cc30a15c78ea"
+        },
+        {
+          "filename": "/images/solar/about-planning-960.webp",
+          "width": 960,
+          "bytes": 57962,
+          "sha256": "be9cf6f07cd7b1eed0fc266c3ccacebaaeafc574aa669d27c3a8422ccd674fa8"
+        },
+        {
+          "filename": "/images/solar/about-planning-1280.webp",
+          "width": 1280,
+          "bytes": 144092,
+          "sha256": "e6e8ca7c1f98d3c05e91e8d301e18e99a7459ca6d7b5c3d2cea6cac6d7e17e8b"
+        }
+      ]
+    },
+    {
+      "id": "process-discover",
+      "title": "Roof top installation 2.jpg",
+      "usage": "How It Works Discover",
+      "alt": "A technician at a rooftop photovoltaic installation",
+      "author": "Cocreatr",
+      "authorOriginal": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/cocreatr/\">Cocreatr</a>",
+      "attribution": "Solar PV panel and system installation",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Roof_top_installation_2.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Roof_top_installation_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "derivativeLicense": "CC BY-SA 2.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 3324,
+      "originalHeight": 1871,
+      "sourceSha1": "eb4fecf5f1b406f713c311fca778da3014f0b8ec",
+      "downloadSha256": "3c61cd5d485691eef007781a4f7b3ff836f1ec68d57660f44df5eb9135f183da",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/process-discover-480.webp",
+          "width": 480,
+          "bytes": 26468,
+          "sha256": "9eb5a003885469f1d2f5ff31ead9dc2222752e52e6b7c7d4272fb71d2d36dd2b"
+        },
+        {
+          "filename": "/images/solar/process-discover-960.webp",
+          "width": 960,
+          "bytes": 82002,
+          "sha256": "6a141a78c0d13c41e533040b6e7aa6aceeef35e6275d2af6ddecadf84bab5cca"
+        },
+        {
+          "filename": "/images/solar/process-discover-1280.webp",
+          "width": 1280,
+          "bytes": 133986,
+          "sha256": "4aa043ec497ed8cc82a783f9c119d51833908bc9dc092a9ba664b7f03d0cb698"
+        }
+      ]
+    },
+    {
+      "id": "process-understand",
+      "title": "Johnson 000381 168197 497880 4578 (36776410006).jpg",
+      "usage": "How It Works Understand",
+      "alt": "Technicians completing a rooftop photovoltaic array",
+      "author": "Photo by David Johnson. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by David Johnson. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Johnson_000381_168197_497880_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Johnson_000381_168197_497880_4578_(36776410006).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Johnson_000381_168197_497880_4578_%2836776410006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johnson_000381_168197_497880_4578_(36776410006).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1325,
+      "sourceSha1": "96e87f6a40e924222089582aaabb1833731339d3",
+      "downloadSha256": "f96ec8031cea3a020c5a96f1bda74a2c8f84c547d8beada69d2514c477023724",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/process-understand-480.webp",
+          "width": 480,
+          "bytes": 22452,
+          "sha256": "cbbe3837beddebd10f65e8a72e2a369dc2cd04709f04e0d34a33f88928093067"
+        },
+        {
+          "filename": "/images/solar/process-understand-960.webp",
+          "width": 960,
+          "bytes": 103210,
+          "sha256": "7872fadd5ab5cbb41aa0878052e2ab635fcb7c2e4a2e44f32e12cfb7b61b8be5"
+        },
+        {
+          "filename": "/images/solar/process-understand-1280.webp",
+          "width": 1280,
+          "bytes": 202302,
+          "sha256": "a9d7e5f292be22f7fbf4b884241d69a5f827467865a7571fdfecf07cda750a95"
+        }
+      ]
+    },
+    {
+      "id": "process-assess",
+      "title": "Realigning solar panels near Leh (4337366406).jpg",
+      "usage": "How It Works Assess",
+      "alt": "People adjusting a solar panel installation near Leh, India",
+      "author": "Kiran Jonnalagadda from Bangalore, India",
+      "authorOriginal": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41894175704@N01\">Kiran Jonnalagadda</a> from Bangalore, India",
+      "attribution": "Realigning panels",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Realigning_solar_panels_near_Leh_(4337366406).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Realigning_solar_panels_near_Leh_%284337366406%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "derivativeLicense": "CC BY-SA 2.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 3872,
+      "originalHeight": 2592,
+      "sourceSha1": "cc4005d1ac1c26c7191a69d17584c69833c57bfd",
+      "downloadSha256": "42641971accc89af9616568ab2a2a37d5d5a4c55fd263260b76aa852821ec7a7",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/process-assess-480.webp",
+          "width": 480,
+          "bytes": 38878,
+          "sha256": "5becdd55bf2beb8d0377ec49f273c564ec511232dd07fb7550ee9bd2c950ae8c"
+        },
+        {
+          "filename": "/images/solar/process-assess-960.webp",
+          "width": 960,
+          "bytes": 145194,
+          "sha256": "b90a9fa6c9e26dd5ec6bac16e5e4dce25aefaee8e6963792e272434a1f0bdead"
+        },
+        {
+          "filename": "/images/solar/process-assess-1280.webp",
+          "width": 1280,
+          "bytes": 245246,
+          "sha256": "5a12cd53b0b9279783d2a1194b6f1f05bde4e44734e6cfd23026986b0af1086a"
+        }
+      ]
+    },
+    {
+      "id": "process-connect",
+      "title": "Professional visit to Saran Solar Power Plant, Kazakhstan (2024).jpg",
+      "usage": "How It Works Connect",
+      "alt": "A group discussing a solar installation during a site visit",
+      "author": "Abdul Walid Fayez Wazani",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Abdul_Walid_Fayez_Wazani&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Abdul Walid Fayez Wazani (page does not exist)\">Abdul Walid Fayez Wazani</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Professional_visit_to_Saran_Solar_Power_Plant,_Kazakhstan_(2024).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Professional_visit_to_Saran_Solar_Power_Plant%2C_Kazakhstan_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "derivativeLicense": "CC BY 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1875,
+      "originalHeight": 2500,
+      "sourceSha1": "99dc699d4ef4e902948983f6dca83556f65caae6",
+      "downloadSha256": "dac413ec311a168a707c5c5645b30a4f7d650b0d00ef98b3d3f769391dce8485",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/process-connect-480.webp",
+          "width": 480,
+          "bytes": 51018,
+          "sha256": "4f7d11b38e45efdfed392b9815f280c2779d86271647050be855d4a18ead3521"
+        },
+        {
+          "filename": "/images/solar/process-connect-960.webp",
+          "width": 960,
+          "bytes": 138230,
+          "sha256": "17b202bc792a2976160be3cab332b5be0a40d56dd66f40eadde46041ab4b75bb"
+        },
+        {
+          "filename": "/images/solar/process-connect-1280.webp",
+          "width": 1280,
+          "bytes": 197528,
+          "sha256": "1ac97e3b5c9ce298874a1219044a91ec509ff6120f12c29643598239d2a1687f"
+        }
+      ]
+    },
+    {
+      "id": "installation-enquiry",
+      "title": "Beadle 000293 172901 518326 4578 (36963956785).jpg",
+      "usage": "Installation enquiry",
+      "alt": "Two technicians coordinating a rooftop solar project",
+      "author": "Photo by Robert Beadle. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Robert Beadle. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Beadle_000293_172901_518326_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beadle_000293_172901_518326_4578_(36963956785).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Beadle_000293_172901_518326_4578_%2836963956785%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Beadle_000293_172901_518326_4578_(36963956785).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1275,
+      "sourceSha1": "10e8df8bb6d9cc4e328eba40fc6ad61e3f6e5957",
+      "downloadSha256": "4328d46a03b0e87efb37d5b263af706542d69085dbc688701c45d4b87ebe8f02",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/installation-enquiry-480.webp",
+          "width": 480,
+          "bytes": 25104,
+          "sha256": "21693dc0cc0d48edfbf202b2764128877f79187f4f908b141bd76323fada9fd4"
+        },
+        {
+          "filename": "/images/solar/installation-enquiry-960.webp",
+          "width": 960,
+          "bytes": 81096,
+          "sha256": "23fab7efb29dddc0021a2dd92913820733597e007760e451ad4046216ac55298"
+        },
+        {
+          "filename": "/images/solar/installation-enquiry-1280.webp",
+          "width": 1280,
+          "bytes": 129400,
+          "sha256": "0a853b0225b85c30fb82fe32b4f694e714d5952db2e822f7958eddb3a05d64c1"
+        }
+      ]
+    },
+    {
+      "id": "installation-review",
+      "title": "Krashefski 000389 172814 517984 4578 (36776406376).jpg",
+      "usage": "Installation site review",
+      "alt": "A technician walking between rows of rooftop solar panels",
+      "author": "Photo by Paul Krashefski. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Paul Krashefski. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Krashefski_000389_172814_517984_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Krashefski_000389_172814_517984_4578_(36776406376).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Krashefski_000389_172814_517984_4578_%2836776406376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Krashefski_000389_172814_517984_4578_(36776406376).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1919,
+      "originalHeight": 1232,
+      "sourceSha1": "0c11cd9ed0caf1c7d266e423218acb3c278dfed6",
+      "downloadSha256": "ed4aecc858570f82bd1697f83706329c52cc81549757bc1e2590e844f0904625",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/installation-review-480.webp",
+          "width": 480,
+          "bytes": 33472,
+          "sha256": "b8868fc33401b7da18d02771c01e841f7417dfaffcfd40f19377d7c2ffef70b9"
+        },
+        {
+          "filename": "/images/solar/installation-review-960.webp",
+          "width": 960,
+          "bytes": 114950,
+          "sha256": "2f683b3a14962b972959eccbb69ef13c6c2a97ceb3eb5998abbf6ddf89aaa271"
+        },
+        {
+          "filename": "/images/solar/installation-review-1280.webp",
+          "width": 1280,
+          "bytes": 191314,
+          "sha256": "399011b00044f323d83d14484cbc12137357a200568d0dd23343b3066fab0a94"
+        }
+      ]
+    },
+    {
+      "id": "installation-proposal",
+      "title": "Batucal 000280 173183 518697 4578 (36963958975).jpg",
+      "usage": "Installation system proposal",
+      "alt": "A solar installer arranging rooftop mounting equipment",
+      "author": "Photo by Kristelle Batucal. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Kristelle Batucal. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Batucal_000280_173183_518697_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Batucal_000280_173183_518697_4578_(36963958975).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Batucal_000280_173183_518697_4578_%2836963958975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Batucal_000280_173183_518697_4578_(36963958975).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1278,
+      "sourceSha1": "c276fadbff0309dceed1980b4dbd883343e1055f",
+      "downloadSha256": "cd09c6e0957a25a51d7734a8e6981ad7841d17e006de44260f155b64219fc71b",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/installation-proposal-480.webp",
+          "width": 480,
+          "bytes": 34410,
+          "sha256": "cd8a5ba8040138001adc3cd291fe064a2ed4814b1bf608680afea2cfd3a46db7"
+        },
+        {
+          "filename": "/images/solar/installation-proposal-960.webp",
+          "width": 960,
+          "bytes": 86060,
+          "sha256": "e9345a2e89421c6079e6a61f3e506b0f8415f9ad671afcd12798ea0d5b869441"
+        },
+        {
+          "filename": "/images/solar/installation-proposal-1280.webp",
+          "width": 1280,
+          "bytes": 125294,
+          "sha256": "2108fe2f4b0c6465014fc58267d27bd8d1a9874e63096c7d34763135ebebb048"
+        }
+      ]
+    },
+    {
+      "id": "installation-work",
+      "title": "Costa 000353 172268 517421 4578 (36792955422).jpg",
+      "usage": "Installation work",
+      "alt": "A technician positioning a solar module on a roof",
+      "author": "Photo by Kate Costa. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Kate Costa. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Costa_000353_172268_517421_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Costa_000353_172268_517421_4578_(36792955422).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Costa_000353_172268_517421_4578_%2836792955422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Costa_000353_172268_517421_4578_(36792955422).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1276,
+      "sourceSha1": "e5498eac4cc45aba005cb75a732b2cef007af475",
+      "downloadSha256": "26222e3ec09d370cc4f301cf15609d23c28a93a0a9aebdc8f769245f52f3264a",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/installation-work-480.webp",
+          "width": 480,
+          "bytes": 19848,
+          "sha256": "b40eb2aa4b8a2146a3e57bc634f44c0f991614b9088f9c59c592b9a1e4acd27f"
+        },
+        {
+          "filename": "/images/solar/installation-work-960.webp",
+          "width": 960,
+          "bytes": 52078,
+          "sha256": "77473f72a43a8c95afca1f131741d1ff35a08fa69363e8ace1f7816c99c94aee"
+        },
+        {
+          "filename": "/images/solar/installation-work-1280.webp",
+          "width": 1280,
+          "bytes": 77858,
+          "sha256": "98ddef7cf4ee7367165f1c56426e2c0920e92a5e1c544c828a7a7748f86d898e"
+        }
+      ]
+    },
+    {
+      "id": "installation-commissioning",
+      "title": "Ely 000362 166401 510787 4578 (36155268683).jpg",
+      "usage": "Installation commissioning",
+      "alt": "Final connection and troubleshooting work on a solar installation",
+      "author": "Photo by Scott Ely. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Scott Ely. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Ely_000362_166401_510787_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ely_000362_166401_510787_4578_(36155268683).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ely_000362_166401_510787_4578_%2836155268683%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ely_000362_166401_510787_4578_(36155268683).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1440,
+      "sourceSha1": "66006dd62231b70c5063980f779cdc45e5952114",
+      "downloadSha256": "0a330f82bd2f84512bd08934214cd378cefe936b1416a6b9a4d721ff4a8b3a96",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/installation-commissioning-480.webp",
+          "width": 480,
+          "bytes": 45410,
+          "sha256": "b810be340f164f0a3d95561a6acb2a6899e8e287bb78e9f9608c5da2005489d6"
+        },
+        {
+          "filename": "/images/solar/installation-commissioning-960.webp",
+          "width": 960,
+          "bytes": 143758,
+          "sha256": "437c6810a45a2773728cbe4da145902484e49f67068ec369938c9e3e6d28f69c"
+        },
+        {
+          "filename": "/images/solar/installation-commissioning-1280.webp",
+          "width": 1280,
+          "bytes": 219122,
+          "sha256": "f516345efffa1a1bf42776260a61b1e5d4b2a46040c8fbda993da96adc7e7edc"
+        }
+      ]
+    },
+    {
+      "id": "learn-basics",
+      "title": "Solar panels closeup.jpg",
+      "usage": "Learning solar basics",
+      "alt": "Close-up of photovoltaic solar cells and their electrical contacts",
+      "author": "Utente:Jollyroger",
+      "authorOriginal": "Utente:Jollyroger",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_panels_closeup.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Solar_panels_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "derivativeLicense": "CC BY-SA 2.5",
+      "retrieved": "2026-10-28",
+      "originalWidth": 2592,
+      "originalHeight": 1944,
+      "sourceSha1": "31d9f795b7c5c82d9a08b60990ba7d1914a6cf84",
+      "downloadSha256": "889c042e9f94307858ff4e991e6cb18f34b207c399dd4f3fccbe6dc27ea03b65",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-basics-480.webp",
+          "width": 480,
+          "bytes": 35306,
+          "sha256": "0e0e6197a5bdb135c596136d42c0c3e03171bfb38e44f8c875a6bc3ac206a4da"
+        },
+        {
+          "filename": "/images/solar/learn-basics-960.webp",
+          "width": 960,
+          "bytes": 206822,
+          "sha256": "a24551b82c39ccb05a26c462dabf7ce8610c95f126525d66daaa15e51920b885"
+        },
+        {
+          "filename": "/images/solar/learn-basics-1280.webp",
+          "width": 1280,
+          "bytes": 410900,
+          "sha256": "8de62d4f24ef94cd4b0996f9fd817830435f142e2430e5981daca18db49e93a9"
+        }
+      ]
+    },
+    {
+      "id": "learn-site-review",
+      "title": "Rooftop Photovoltaic Array.jpg",
+      "usage": "Learning site review",
+      "alt": "A rooftop photovoltaic array and its installation setting",
+      "author": "Lucas Braun",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/wiki/User:Labraun90\" title=\"User:Labraun90\">Lucas Braun</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rooftop_Photovoltaic_Array.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Rooftop_Photovoltaic_Array.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "derivativeLicense": "CC BY-SA 3.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 3072,
+      "originalHeight": 2304,
+      "sourceSha1": "87b997854507711e763417caa2d346b421dda129",
+      "downloadSha256": "4e97ed8717d22e4ce01abecc31698200eb498ab0e694b27dbb7b91400867c13f",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-site-review-480.webp",
+          "width": 480,
+          "bytes": 49686,
+          "sha256": "23db58634960dd7bd399dbcc3eb11234aa9c466b21b97f7d9ff566574652bf5b"
+        },
+        {
+          "filename": "/images/solar/learn-site-review-960.webp",
+          "width": 960,
+          "bytes": 191618,
+          "sha256": "2960dc26994232acd1d456de08bb67fd922f6bd65d39054d5a74b2d84a7a096c"
+        },
+        {
+          "filename": "/images/solar/learn-site-review-1280.webp",
+          "width": 1280,
+          "bytes": 321512,
+          "sha256": "9ebbd1df81c9155da1fb3a9d216f66a66e7e69994142338dc0445b5c8ca2b479"
+        }
+      ]
+    },
+    {
+      "id": "learn-hybrid",
+      "title": "Inverter battery - Loom Solar.jpg",
+      "usage": "Learning on-grid and hybrid",
+      "alt": "Inverter and battery equipment used with a solar power system",
+      "author": "Pihu5432",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pihu5432&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pihu5432 (page does not exist)\">Pihu5432</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Inverter_battery_-_Loom_Solar.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Inverter_battery_-_Loom_Solar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 6240,
+      "originalHeight": 4160,
+      "sourceSha1": "04648cb939da31091c4681503e54edb63fa8bcb9",
+      "downloadSha256": "8cea4fc10aac7f8c939dddc4022c284f87806b1f4e456cf8f9c2d8cf213a6042",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-hybrid-480.webp",
+          "width": 480,
+          "bytes": 31178,
+          "sha256": "c9a1b204d8a5519ff32e7e244e6e43ab9b52afbd7bc4a362d3d6c785bae29611"
+        },
+        {
+          "filename": "/images/solar/learn-hybrid-960.webp",
+          "width": 960,
+          "bytes": 132350,
+          "sha256": "a65f1666d5b5b5dd4bed46cf695021c92ad59db805dd459f753c3e190ab40880"
+        },
+        {
+          "filename": "/images/solar/learn-hybrid-1280.webp",
+          "width": 1280,
+          "bytes": 236524,
+          "sha256": "26f0d36f26cc8b7b4dae5f51233537e8ab149175aa7810846641c68121cda085"
+        }
+      ]
+    },
+    {
+      "id": "learn-maintenance",
+      "title": "Krashefski 000387 172808 517946 4578 (36776407386).jpg",
+      "usage": "Learning maintenance",
+      "alt": "Technicians checking mounting rails and solar module fixings",
+      "author": "Photo by Paul Krashefski. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Paul Krashefski. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Krashefski_000387_172808_517946_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Krashefski_000387_172808_517946_4578_(36776407386).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Krashefski_000387_172808_517946_4578_%2836776407386%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Krashefski_000387_172808_517946_4578_(36776407386).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1919,
+      "originalHeight": 1275,
+      "sourceSha1": "bd2e152b8d90c93b2746ef692dd2fcfd53d4c296",
+      "downloadSha256": "70431526640da9129bb9a7d94d58969032165732e10c774b712c3d8282d29b45",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-maintenance-480.webp",
+          "width": 480,
+          "bytes": 37154,
+          "sha256": "df21b54e675d2d13035f4095016ba4e1f5c0e1f46d54116108b1966684a32b8e"
+        },
+        {
+          "filename": "/images/solar/learn-maintenance-960.webp",
+          "width": 960,
+          "bytes": 143602,
+          "sha256": "a1ea2766a5cf01f4733dc52648e15b5bdff69058ffea7f3b18489644990033f6"
+        },
+        {
+          "filename": "/images/solar/learn-maintenance-1280.webp",
+          "width": 1280,
+          "bytes": 258652,
+          "sha256": "bd0293911bb8150eadcab09b09e8444b409afdb13968a1c7cec38d3f5fee87a4"
+        }
+      ]
+    },
+    {
+      "id": "learn-bills",
+      "title": "Solar radiation measurement in PV monitoring system.jpg",
+      "usage": "Learning electricity bills",
+      "alt": "Solar irradiance instruments used to monitor photovoltaic system performance",
+      "author": "Pieter Werken",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pieter_Werken&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pieter Werken (page does not exist)\">Pieter Werken</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solar_radiation_measurement_in_PV_monitoring_system.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Solar_radiation_measurement_in_PV_monitoring_system.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "derivativeLicense": "CC BY-SA 4.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1890,
+      "originalHeight": 1305,
+      "sourceSha1": "2f10084e0034e0e53e9ec74f0f0dccacc15f138c",
+      "downloadSha256": "d6de41450176a0daa79f8e2376b4c913c86fc323935d7afc7bca92014cacbf26",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-bills-480.webp",
+          "width": 480,
+          "bytes": 29946,
+          "sha256": "73e33c9b9c75a07c1aff7a502f73b20ef5d4f26eb82106324baf3d538940eb21"
+        },
+        {
+          "filename": "/images/solar/learn-bills-960.webp",
+          "width": 960,
+          "bytes": 87302,
+          "sha256": "1beb93e4d46ed50fc87917f6263e074943da0875a7508d9da5881f883abe98cd"
+        },
+        {
+          "filename": "/images/solar/learn-bills-1280.webp",
+          "width": 1280,
+          "bytes": 144534,
+          "sha256": "748e66a66ce8288c45602f350010d46e72170cb402759e309419aadfc76eebd4"
+        }
+      ]
+    },
+    {
+      "id": "learn-roof",
+      "title": "Bhopal Sambhavna Trust 02 (14017644216).jpg",
+      "usage": "Learning roof suitability",
+      "alt": "A building and rooftop solar installation in Bhopal, India",
+      "author": "Stefan Krasowski from New York, NY, USA",
+      "authorOriginal": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/65638600@N05\">Stefan Krasowski</a> from New York, NY, USA",
+      "attribution": "Bhopal Sambhavna Trust 02",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhopal_Sambhavna_Trust_02_(14017644216).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bhopal_Sambhavna_Trust_02_%2814017644216%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "derivativeLicense": "CC BY 2.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 4000,
+      "originalHeight": 3000,
+      "sourceSha1": "060640a96a1aee67c76569a9cdb6b3ac58e17ba1",
+      "downloadSha256": "892c09fe4fbbdddfb6af4dbc534348087cf4eb7439b00fa816b2bc8a4728be26",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-roof-480.webp",
+          "width": 480,
+          "bytes": 72078,
+          "sha256": "37e0eb6450982830f96bbfe69c179bb1e9b11a2dbde536a1ddf1c90666242824"
+        },
+        {
+          "filename": "/images/solar/learn-roof-960.webp",
+          "width": 960,
+          "bytes": 308942,
+          "sha256": "d8a531c60352ed3c904f455d3a6280c94b1bb095c4f9b64d5ba54c14fe6d17e9"
+        },
+        {
+          "filename": "/images/solar/learn-roof-1280.webp",
+          "width": 1280,
+          "bytes": 565858,
+          "sha256": "55395189169cd00247dba62d2645dd00d5afe0c9ab7ab52d5ff5e560be03c662"
+        }
+      ]
+    },
+    {
+      "id": "learn-schemes",
+      "title": "SPV modules LREDA Office Leh-Ladakh.JPG",
+      "usage": "Learning schemes and approvals",
+      "alt": "Solar modules at an office building in Leh, India",
+      "author": "Fringe2013",
+      "authorOriginal": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fringe2013&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fringe2013 (page does not exist)\">Fringe2013</a>",
+      "attribution": "Own work",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:SPV_modules_LREDA_Office_Leh-Ladakh.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/SPV_modules_LREDA_Office_Leh-Ladakh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "derivativeLicense": "CC BY-SA 3.0",
+      "retrieved": "2026-10-28",
+      "originalWidth": 3264,
+      "originalHeight": 2448,
+      "sourceSha1": "c3f50a0cca606f55ea0710dd632946d4877f2f01",
+      "downloadSha256": "16fd1aa1fd87187bbf548b8c6c2d38f80df13a3ebb2f1b6af985f69f72fdb40c",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/learn-schemes-480.webp",
+          "width": 480,
+          "bytes": 38494,
+          "sha256": "a9917b72b6c0c3864de8affebb6dc4ff5508ee607f33d1c8beff115e336be5cb"
+        },
+        {
+          "filename": "/images/solar/learn-schemes-960.webp",
+          "width": 960,
+          "bytes": 147984,
+          "sha256": "427acf400c3c0827097de8dbf83a8ed072cd48955a58d427e6c0667d3e365e8c"
+        },
+        {
+          "filename": "/images/solar/learn-schemes-1280.webp",
+          "width": 1280,
+          "bytes": 262618,
+          "sha256": "24037bbfbcba444c829d0f11d49555ca9846b5fa05383f53e8daf92cc61b0518"
+        }
+      ]
+    },
+    {
+      "id": "contact-assessment",
+      "title": "Costa 000346 172260 517450 4578 (36155269993).jpg",
+      "usage": "Contact site assessment",
+      "alt": "A technician working on a residential solar installation",
+      "author": "Photo by Kate Costa. – U.S. Department of Energy from United States",
+      "authorOriginal": "Photo by Kate Costa. – <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37916456@N02\">U.S. Department of Energy</a> from United States",
+      "attribution": "Costa_000346_172260_517450_4578",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Costa_000346_172260_517450_4578_(36155269993).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Costa_000346_172260_517450_4578_%2836155269993%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Costa_000346_172260_517450_4578_(36155269993).jpg#Licensing",
+      "derivativeLicense": "Public domain",
+      "retrieved": "2026-10-28",
+      "originalWidth": 1920,
+      "originalHeight": 1280,
+      "sourceSha1": "fe8601cf6d7537dd5f3ca0290d351d880c673b5e",
+      "downloadSha256": "d8371456fbb569c171fb1daa06eac5bc6e7d59614bd5611ffc9aa996baf31eda",
+      "changes": "Resized and encoded as responsive WebP; CSS object-fit cropping varies by viewport. No generative alterations.",
+      "files": [
+        {
+          "filename": "/images/solar/contact-assessment-480.webp",
+          "width": 480,
+          "bytes": 41254,
+          "sha256": "3c76eb0f590df7ae2a5bfd7a2e2afdf16ebc30fc27020dadd4788314e4d11b16"
+        },
+        {
+          "filename": "/images/solar/contact-assessment-960.webp",
+          "width": 960,
+          "bytes": 151086,
+          "sha256": "f6cbd35d1d59562aa6739419b2870ebe665445486dfa6e7eb2ef4620ef8a289f"
+        },
+        {
+          "filename": "/images/solar/contact-assessment-1280.webp",
+          "width": 1280,
+          "bytes": 260170,
+          "sha256": "670b4b3cd27761d2db47e30974c52c49f71bbed1c054d73e17d7618524c39308"
+        }
+      ]
+    }
+  ]
+}

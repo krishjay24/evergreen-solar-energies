@@ -1,0 +1,255 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Brand palette */
+  --color-canvas: #091d18;
+  --color-canvas-alt: #101714;
+  --color-card: #1b211e;
+  --color-evergreen: #123e30;
+  --color-gold: #d9b65b;
+  --color-gold-accent: #f0d77c;
+  --color-warm-white: #f7f7f0;
+  --color-muted: #a8b1ab;
+  --color-solar-blue: #2774b8;
+
+  /* Hairlines */
+  --color-line: rgb(247 247 240 / 0.1);
+  --color-line-strong: rgb(247 247 240 / 0.2);
+
+  /* Typography */
+  --font-sans: 'Manrope Variable', 'Inter', ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Manrope Variable', 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --text-display-xl: clamp(3rem, 1.6rem + 5.6vw, 6.75rem);
+  --text-display-xl--line-height: 0.98;
+  --text-display-xl--letter-spacing: -0.045em;
+  --text-display-lg: clamp(2.5rem, 1.55rem + 3.8vw, 5rem);
+  --text-display-lg--line-height: 1.02;
+  --text-display-lg--letter-spacing: -0.04em;
+  --text-display-md: clamp(2rem, 1.45rem + 2.2vw, 3.5rem);
+  --text-display-md--line-height: 1.08;
+  --text-display-md--letter-spacing: -0.035em;
+  --text-title: clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
+  --text-title--line-height: 1.25;
+  --text-title--letter-spacing: -0.02em;
+  --text-lead: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --text-lead--line-height: 1.65;
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: 0.2em;
+
+  /* Layout */
+  --container-site: 80rem;
+  --container-narrow: 48rem;
+  --container-wide: 96rem;
+
+  --radius-card: 1.75rem;
+  --radius-card-sm: 1.25rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-spin-slow: spin 2.4s linear infinite;
+}
+
+/* Containers & spacing */
+@utility container-site {
+  width: 100%;
+  max-width: var(--container-site);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @variant sm {
+    padding-inline: 1.5rem;
+  }
+  @variant lg {
+    padding-inline: 2rem;
+  }
+}
+
+@utility container-narrow {
+  width: 100%;
+  max-width: var(--container-narrow);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @variant sm {
+    padding-inline: 1.5rem;
+  }
+}
+
+@utility container-wide {
+  width: 100%;
+  max-width: var(--container-wide);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @variant sm {
+    padding-inline: 1.5rem;
+  }
+  @variant lg {
+    padding-inline: 2.5rem;
+  }
+}
+
+@utility section-y {
+  padding-block: 4.5rem;
+
+  @variant md {
+    padding-block: 6.5rem;
+  }
+  @variant lg {
+    padding-block: 8.5rem;
+  }
+}
+
+@utility section-y-compact {
+  padding-block: 3rem;
+
+  @variant md {
+    padding-block: 4.5rem;
+  }
+}
+
+/* Icons */
+@utility icon-sm {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+@utility icon-md {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+
+@utility icon-lg {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+
+/* Surfaces */
+@utility surface-card {
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-line);
+  background-color: var(--color-card);
+}
+
+@utility text-gradient-gold {
+  background-image: linear-gradient(100deg, var(--color-gold-accent), var(--color-gold) 55%, var(--color-gold-accent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Buttons */
+@utility btn {
+  @apply inline-flex h-12 items-center justify-center gap-2.5 rounded-full px-6 text-sm font-semibold whitespace-nowrap transition-[background-color,border-color,color,transform] duration-300 ease-out-expo select-none active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50;
+}
+
+@utility btn-sm {
+  @apply h-10 px-5 text-[0.8125rem];
+}
+
+@utility btn-lg {
+  @apply h-14 px-8 text-base;
+}
+
+@utility btn-primary {
+  @apply btn bg-gold text-canvas hover:bg-gold-accent;
+}
+
+@utility btn-secondary {
+  @apply btn border border-line-strong bg-warm-white/[0.03] text-warm-white backdrop-blur-sm hover:border-gold/60 hover:bg-warm-white/[0.07];
+}
+
+@utility btn-icon {
+  @apply inline-flex shrink-0 items-center justify-center rounded-full transition-[background-color,border-color,color,transform] duration-300 ease-out-expo active:scale-95 disabled:pointer-events-none disabled:opacity-50;
+}
+
+/* The native cursor remains the default until a fine mouse pointer is observed. */
+.solar-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  visibility: hidden;
+  will-change: transform;
+}
+.solar-cursor[data-visible='true'] { visibility: visible; }
+.solar-cursor-ring,
+.solar-cursor-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.solar-cursor-ring {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #d9b65b;
+  transition: width 120ms ease-out, height 120ms ease-out, box-shadow 120ms ease-out;
+}
+.solar-cursor-dot { width: 3px; height: 3px; background: #d9b65b; }
+.solar-cursor[data-interactive='true'] .solar-cursor-ring { width: 34px; height: 34px; }
+.solar-cursor[data-primary='true'] .solar-cursor-ring { box-shadow: 0 0 12px rgb(217 182 91 / 0.22); }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) and (forced-colors: none) {
+  html[data-solar-cursor='active'], html[data-solar-cursor='active'] * { cursor: none !important; }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: dark;
+    --header-height: 8rem;
+  }
+
+  [id] {
+    scroll-margin-top: calc(var(--header-height) + 1rem);
+  }
+
+  body {
+    @apply min-h-svh bg-canvas font-sans text-base leading-relaxed text-warm-white antialiased;
+  }
+
+  #root {
+    @apply flex min-h-svh flex-col;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-semibold text-balance text-warm-white;
+  }
+
+  p {
+    @apply text-pretty;
+  }
+
+  ::selection {
+    @apply bg-gold text-canvas;
+  }
+
+  :focus-visible {
+    @apply rounded-sm outline-2 outline-offset-4 outline-gold-accent;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

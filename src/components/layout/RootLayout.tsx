@@ -5,6 +5,7 @@ import { FloatingActions } from './FloatingActions'
 import { RouteMetadata } from './RouteMetadata'
 import { SiteFooter } from './SiteFooter'
 import { SiteHeader } from './SiteHeader'
+import { AnalyticsEvents } from './AnalyticsEvents'
 
 export function RootLayout() {
   return (
@@ -14,6 +15,7 @@ export function RootLayout() {
       </a>
       <RouteProgress />
       <RouteMetadata />
+      <AnalyticsEvents />
       <SiteHeader />
       <main id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
         <Outlet />

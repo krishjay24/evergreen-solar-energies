@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { trackEvent } from '@/lib/analytics'
 
 /** Only opens a customer-confirmed channel; never records a delivery or resets a form. */
 export function useWhatsAppEnquiry() {
@@ -28,6 +29,7 @@ export function useWhatsAppEnquiry() {
       policy.content = 'no-referrer'
       opened.document.head.append(policy)
       opened.location.replace(href)
+      trackEvent('whatsapp_click')
       setNotice('WhatsApp is ready with your enquiry. Please press Send to complete your request.')
     } catch {
       opened?.close()

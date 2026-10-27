@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { siteConfig } from '@/config/site'
 import { contactEnquiryWhatsAppHref, whatsappHref } from '@/lib/contact'
 import { useWhatsAppEnquiry } from '@/hooks/useWhatsAppEnquiry'
+import { trackEvent } from '@/lib/analytics'
 
 const schema = z.object({
   name: z.string().trim().min(2, 'Enter your name').max(100),
@@ -51,6 +52,7 @@ export function ContactForm() {
       const receipt: unknown = await response.json()
       if (!response.ok || !receipt || typeof receipt !== 'object' || !('received' in receipt) || receipt.received !== true || !('id' in receipt) || typeof receipt.id !== 'string') throw new Error()
       setState('received')
+      trackEvent('enquiry_confirmed', 'contact')
     } catch {
       setState('idle')
       setError('Submission was not confirmed. Please call or email us instead.')

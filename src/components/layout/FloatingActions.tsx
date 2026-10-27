@@ -1,7 +1,6 @@
 import { ArrowUp, Phone } from 'lucide-react'
 import { motion } from 'motion/react'
 import { useScrolled } from '@/hooks/useScrolled'
-import { trackEvent } from '@/lib/analytics'
 import { phoneHref, whatsappHref } from '@/lib/contact'
 import { siteConfig } from '@/config/site'
 import { prefersReducedMotion } from '@/lib/motion'
@@ -17,7 +16,6 @@ export function FloatingActions() {
       {whatsapp && (
         <a
           href={whatsapp}
-          onClick={() => trackEvent('whatsapp_click')}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat with Evergreen Solar Energies on WhatsApp"

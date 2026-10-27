@@ -5,10 +5,11 @@ interface SolarPhotoProps {
   photo: PhotoId
   className?: string
   sizes?: string
+  priority?: boolean
 }
 
 /** Licensed reference photography; never a claim of an Evergreen installation. */
-export function SolarPhoto({ photo, className, sizes = '(min-width: 1024px) 50vw, 100vw' }: SolarPhotoProps) {
+export function SolarPhoto({ photo, className, sizes = '(min-width: 1024px) 50vw, 100vw', priority = false }: SolarPhotoProps) {
   const asset = photography[photo]
   return (
     <span data-photo={photo} className={cn('relative block overflow-hidden', className)} title="Reference photograph — not an Evergreen installation. Photo credits are linked in the footer.">
@@ -19,7 +20,8 @@ export function SolarPhoto({ photo, className, sizes = '(min-width: 1024px) 50vw
         width={asset.width}
         height={asset.height}
         alt={asset.alt}
-        loading="lazy"
+        loading={priority ? 'eager' : 'lazy'}
+        fetchPriority={priority ? 'high' : 'auto'}
         decoding="async"
         className="size-full object-cover"
         style={{ objectPosition: asset.position }}

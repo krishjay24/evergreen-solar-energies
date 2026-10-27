@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Route HTML, cache headers and the real 404 fallback are generated at build time.
+# Do not add an SPA /* -> /index.html 200 rule: it would create soft 404s.
+# Existing same-origin /.netlify/functions/* endpoints remain reserved to Netlify.

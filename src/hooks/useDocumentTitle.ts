@@ -1,8 +1,12 @@
 import { useEffect } from 'react'
-import { siteConfig } from '@/config/site'
+import { useLocation } from 'react-router'
+import { getPageSeo } from '@/lib/seo'
 
 export function useDocumentTitle(title?: string): void {
+  const { pathname } = useLocation()
+  // Keep legacy page callers in sync with the central metadata owner.
+  void title
   useEffect(() => {
-    document.title = title ? `${title} | ${siteConfig.shortName}` : `${siteConfig.name} | ${siteConfig.tagline}`
-  }, [title])
+    document.title = getPageSeo(pathname).title
+  }, [pathname])
 }

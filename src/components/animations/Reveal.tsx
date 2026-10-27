@@ -14,6 +14,7 @@ export function Reveal({ delay = 0, once = true, variants = fadeUp, transition, 
 
   return (
     <motion.div
+      data-reveal
       initial="hidden"
       whileInView="visible"
       viewport={{ once, amount: 0.2 }}

@@ -8,6 +8,7 @@ import { PrimaryButton } from '@/components/common/PrimaryButton'
 import { siteConfig } from '@/config/site'
 import { phoneHref, solarAssessmentWhatsAppHref, whatsappHref } from '@/lib/contact'
 import { useWhatsAppEnquiry } from '@/hooks/useWhatsAppEnquiry'
+import { trackEvent } from '@/lib/analytics'
 import { solarFitSchema, solarFitEntrySchema, type SolarFitFields as Fields } from './solarFitSchema'
 
 const titles = ['About You', 'Your Project', 'Your Site', 'Your Usage', 'Next Step'] as const
@@ -66,6 +67,7 @@ export function SolarFitForm() {
         throw new Error('The request was not confirmed. Please try again or contact us directly.')
       }
       setStatus('received')
+      trackEvent('enquiry_confirmed', 'solar_fit')
     } catch {
       setStatus('idle')
       setSubmitError('Your request was not confirmed. No success has been recorded. Please try again or contact us directly.')

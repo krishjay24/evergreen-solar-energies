@@ -20,7 +20,7 @@ export default function ArticlePage() {
         <SectionHeading as="h1" size="lg" eyebrow={article.category} title={article.title} description={article.summary} />
         <p className="mt-5 text-sm text-muted">General education · Confirm current rules and project details before making decisions.</p>
         <figure className="mt-8 overflow-hidden rounded-card border border-line">
-          <SolarPhoto photo={articlePhotos[article.slug]!} className="aspect-[16/9] w-full" sizes="(min-width: 1024px) 800px, 100vw" />
+          <SolarPhoto photo={articlePhotos[article.slug]!} priority className="aspect-[16/9] w-full" sizes="(min-width: 1024px) 800px, 100vw" />
           <figcaption className="bg-card px-5 py-3 text-xs text-muted">Reference photography · Not an Evergreen installation.</figcaption>
         </figure>
       </Section>

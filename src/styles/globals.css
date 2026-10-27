@@ -209,7 +209,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color-scheme: dark;
-    --header-height: 8rem;
+    --header-height: 5rem;
+  }
+
+  @media (min-width: 48rem) {
+    html {
+      --header-height: 8rem;
+    }
   }
 
   [id] {

@@ -3,7 +3,7 @@ import { brandLogo } from '@/config/brand'
 import { cn } from '@/lib/cn'
 
 const sizes = {
-  header: { image: 'h-28', sizes: '168px' },
+  header: { image: 'h-16 md:h-28', sizes: '(min-width: 768px) 168px, 96px' },
   sm: { image: 'h-16', sizes: '96px' },
   md: { image: 'h-28', sizes: '168px' },
   lg: { image: 'h-36', sizes: '216px' },

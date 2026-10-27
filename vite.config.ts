@@ -5,6 +5,8 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Netlify context is public indexing state, never a credential.
+  define: { 'import.meta.env.CONTEXT': JSON.stringify(process.env['CONTEXT'] ?? '') },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

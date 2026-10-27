@@ -43,8 +43,8 @@ export function SiteFooter() {
           <div>
             <h3 className="text-sm font-semibold text-warm-white">Contact</h3>
             <ul className="mt-5 space-y-3 text-sm text-muted">
-              {siteConfig.contact.phones.map((phone) => <li key={phone}><a className="inline-flex items-center gap-2 hover:text-gold-accent" href={phoneHref(phone)} onClick={() => trackEvent('phone_click')}><Phone className="icon-sm text-gold" aria-hidden="true" />{phone}</a></li>)}
-              <li><a className="inline-flex items-center gap-2 break-all hover:text-gold-accent" href={`mailto:${siteConfig.contact.email}`} onClick={() => trackEvent('email_click')}><Mail className="icon-sm shrink-0 text-gold" aria-hidden="true" />{siteConfig.contact.email}</a></li>
+              {siteConfig.contact.phones.map((phone) => <li key={phone}><a className="inline-flex items-center gap-2 hover:text-gold-accent" href={phoneHref(phone)}><Phone className="icon-sm text-gold" aria-hidden="true" />{phone}</a></li>)}
+              <li><a className="inline-flex items-center gap-2 break-all hover:text-gold-accent" href={`mailto:${siteConfig.contact.email}`}><Mail className="icon-sm shrink-0 text-gold" aria-hidden="true" />{siteConfig.contact.email}</a></li>
               <li><a className="inline-flex items-start gap-2 hover:text-gold-accent" href={mapsHref} target="_blank" rel="noopener noreferrer"><MapPin className="icon-sm mt-1 shrink-0 text-gold" aria-hidden="true" />{siteConfig.contact.address}<ArrowUpRight className="icon-sm shrink-0" aria-hidden="true" /></a></li>
             </ul>
           </div>
@@ -58,3 +58,4 @@ export function SiteFooter() {
     </footer>
   )
 }
+

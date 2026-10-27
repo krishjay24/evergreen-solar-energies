@@ -13,6 +13,8 @@
     "test:whatsapp": "node --experimental-strip-types --test scripts/whatsapp-enquiries.test.mjs",
     "test:whatsapp:browser": "node scripts/verify-site.mjs --whatsapp-only",
     "test:ui": "node scripts/verify-site.mjs --ui-only",
+    "test:seo": "node --test scripts/seo.test.mjs",
+    "test:seo:browser": "node scripts/verify-seo-browser.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

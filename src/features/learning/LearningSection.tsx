@@ -10,6 +10,7 @@ import { articleCategories, articles } from '@/data/learning'
 import { articlePhotos } from '@/data/photography'
 
 export function LearningSection({ compact = false }: { compact?: boolean }) {
+  const ArticleHeading = compact ? 'h3' : 'h2'
   const [category, setCategory] = useState<string>('All')
   const visible = articles.filter((article) => category === 'All' || article.category === category)
   return (
@@ -37,7 +38,7 @@ export function LearningSection({ compact = false }: { compact?: boolean }) {
               </div>
               <div className="p-6">
                 <span className="flex items-center gap-2 text-xs font-semibold tracking-widest text-gold-accent uppercase"><BookOpen className="icon-sm" aria-hidden="true" />{article.category}</span>
-                <h3 className="mt-4 text-title group-hover:text-gold-accent">{article.title}</h3>
+                <ArticleHeading className="mt-4 text-title group-hover:text-gold-accent">{article.title}</ArticleHeading>
                 <p className="mt-3 text-sm leading-7 text-muted">{article.summary}</p>
                 <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-gold-accent">Read more <ArrowRight className="icon-sm" aria-hidden="true" /></span>
               </div>

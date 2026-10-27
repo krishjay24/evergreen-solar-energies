@@ -10,6 +10,8 @@ interface ImportMetaEnv {
   readonly VITE_NEWSLETTER_ENDPOINT?: string
   readonly VITE_NEWSLETTER_UNSUBSCRIBE_URL?: string
   readonly VITE_BUSINESS_DETAILS_VERIFIED?: string
+  readonly VITE_ANALYTICS_ENABLED?: string
+  readonly CONTEXT?: string
 }
 
 interface ImportMeta {

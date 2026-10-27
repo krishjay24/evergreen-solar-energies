@@ -1,6 +1,7 @@
 import { motion, useReducedMotion, type HTMLMotionProps } from 'motion/react'
 import { fadeUp } from '@/lib/motion'
 
+
 interface RevealProps extends HTMLMotionProps<'div'> {
   delay?: number
   once?: boolean

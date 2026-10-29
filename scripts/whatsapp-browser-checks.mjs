@@ -108,8 +108,8 @@ export async function runWhatsAppChecks({ check, navigate, evaluate, clickText, 
   await check('General and service links remain distinct from personal enquiry messages', async () => {
     await navigate('/solar-solutions')
     const links = await evaluate(() => [...document.querySelectorAll('main a[href^="https://wa.me/"]')].map(a => a.href))
-    assert.equal(links.length, 3)
-    assert.equal(new Set(links).size, 3)
+    assert.equal(links.length, 4)
+    assert.equal(new Set(links).size, 4)
     for (const url of links) assert.ok(url.startsWith('https://wa.me/916300182036?text='))
     const general = await evaluate(() => new URL(document.querySelector('a[aria-label*="on WhatsApp"]').href).searchParams.get('text'))
     assert.equal(general, 'Hello Evergreen Solar Energies, I would like to know more about your solar installation services.')

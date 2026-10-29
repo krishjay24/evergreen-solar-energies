@@ -1,5 +1,7 @@
 // Reviewed image records. Full attribution: /images/solar/credits.html
 export const photography = {
+  'home-fencing': { width: 1280, height: 960, alt: 'AI-generated illustration of electric fencing around Indian farmland, with a solar panel, energizer, battery enclosure and earthing rod', position: '50% 50%' },
+  'solutions-fencing': { width: 1280, height: 960, alt: 'AI-generated illustration of solar-powered fencing beside Indian crop rows, with insulated fence posts and a warning sign; not an installation photograph', position: '50% 50%' },
   "home-about-team": {
     "width": 1280,
     "height": 852,

@@ -2,6 +2,8 @@ import { MapPin } from 'lucide-react'
 import { motion, type Variants } from 'motion/react'
 import type { Ref } from 'react'
 import { Link, useLocation } from 'react-router'
+import { SecondaryButton } from '@/components/common/SecondaryButton'
+import { whatsappHref } from '@/lib/contact'
 import { PrimaryButton } from '@/components/common/PrimaryButton'
 import { serviceAreaNames, siteConfig } from '@/config/site'
 import { cn } from '@/lib/cn'
@@ -25,6 +27,7 @@ interface MobileMenuProps {
 }
 
 export function MobileMenu({ id, onNavigate, ref }: MobileMenuProps) {
+  const quotation = whatsappHref('heroQuotation')
   const location = useLocation()
   const items = siteConfig.navigation
 
@@ -36,7 +39,7 @@ export function MobileMenu({ id, onNavigate, ref }: MobileMenuProps) {
       initial="closed"
       animate="open"
       exit="closed"
-      className="fixed inset-x-0 top-(--header-height) bottom-0 overflow-y-auto border-t border-line bg-canvas/95 backdrop-blur-xl lg:hidden"
+      className="fixed inset-x-0 top-(--header-height) bottom-0 overflow-y-auto border-t border-line bg-canvas/95 backdrop-blur-xl xl:hidden"
     >
       <nav aria-label="Mobile" className="container-site flex min-h-full flex-col gap-10 py-8">
         <ul className="flex flex-col">
@@ -61,9 +64,12 @@ export function MobileMenu({ id, onNavigate, ref }: MobileMenuProps) {
           })}
         </ul>
         <motion.div variants={item} className="mt-auto flex flex-col gap-5">
-          <PrimaryButton to={siteConfig.primaryCta.to} onClick={onNavigate} size="lg" className="w-full justify-between pl-7">
+          <div className="grid grid-cols-2 gap-2 md:hidden">
+          <PrimaryButton to={siteConfig.primaryCta.to} onClick={onNavigate} size="sm" icon={null} className="w-full px-2">
             {siteConfig.primaryCta.label}
           </PrimaryButton>
+          {quotation && <SecondaryButton href={quotation} target="_blank" rel="noopener noreferrer" onClick={onNavigate} size="sm" className="w-full px-2">Get a Quotation</SecondaryButton>}
+          </div>
           <p className="flex items-center gap-2 text-sm text-muted">
             <MapPin className="icon-sm text-gold" aria-hidden="true" />
             Serving {serviceAreaNames.join(' · ')}

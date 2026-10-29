@@ -101,7 +101,7 @@ try {
       pause(10000).then(() => { throw new Error('Browser page did not finish loading.') }),
     ])
     socket.removeEventListener('message', onLoad)
-    await until('!!document.querySelector("[data-hero]")')
+    await until(path === '/' ? '!!document.querySelector("[data-hero]")' : '!!document.querySelector("main h1")')
   }
   const media = (value) => send('Emulation.setEmulatedMedia', {
     features: [{ name: 'prefers-reduced-motion', value }],
@@ -125,7 +125,8 @@ try {
   assert.equal(desktop.heading, 'MAKE THE SUN WORK FOR YOU.')
   assert.match(desktop.houseLabel, /Illustration/)
   assert.equal(desktop.paths, 6)
-  assert.deepEqual(desktop.links, ['/contact#site-visit', '/solar-solutions'])
+  assert.equal(desktop.links.length, 2)
+  assert.deepEqual(desktop.links.filter(href => href.startsWith('/')), ['/contact#site-visit', '/solar-solutions'])
   assert.equal(desktop.overflow, false)
   console.log('Desktop: heading, original illustration, six paths and CTA destinations OK')
 
@@ -148,6 +149,11 @@ try {
     const overflow = await evaluate('document.documentElement.scrollWidth > innerWidth')
     assert.equal(overflow, false, `Horizontal overflow at ${width}px`)
   }
+  await viewport(1440, 900)
+  const quotation = await evaluate(`(() => { const links = [...document.querySelectorAll('header a')]; const visit = links.find(a => a.textContent.includes('Request a Site Visit')); const quote = links.find(a => a.textContent.includes('Get a Quotation')); return { href: quote.href, sameRow: Math.abs(visit.getBoundingClientRect().top - quote.getBoundingClientRect().top) < 2 }; })()`)
+  assert.equal(quotation.sameRow, true, 'Header quotation sits beside site visit on desktop')
+  assert.equal(new URL(quotation.href).pathname, '/916300182036')
+  assert.equal(new URL(quotation.href).searchParams.get('text'), "Hello Evergreen Solar Energies! \u2600\ufe0f\n\nI'm interested in installing a solar system for my home/business.\n\nPlease share the available solar options, approximate pricing, and applicable government subsidy information.\n\nI'd like to request a quotation and arrange a site assessment.\n\nThank you! \ud83c\udf3f")
   console.log('Intermediate widths: 360, 430, 768, 1024 and 1920px have no overflow')
 
   await viewport(1440, 900)
@@ -185,6 +191,24 @@ try {
   await until('!!document.querySelector("[data-hero-cta]")')
   await evaluate(`document.querySelector('[data-hero-cta] a[href="/contact#site-visit"]').click()`)
   await until('location.pathname === "/contact" && location.hash === "#site-visit"')
+  await navigate('/solar-solutions')
+  await until('!!document.querySelector("#fencing")')
+  const fencing = await evaluate(`({ href: [...document.querySelectorAll('#fencing a')].find(a => a.textContent.includes('Enquire About Solar Fencing')).href, image: document.querySelector('#fencing img').getAttribute('src'), text: document.querySelector('#fencing').textContent })`)
+  assert.equal(new URL(fencing.href).pathname, '/916300182036')
+  assert.match(new URL(fencing.href).searchParams.get('text'), /fencing options.*site inspection.*quotation/)
+  assert.match(fencing.image, /solutions-fencing/)
+  await evaluate('document.querySelector("#fencing").scrollIntoView()')
+  await until('document.querySelector("#fencing img").complete && document.querySelector("#fencing img").naturalWidth > 0')
+  assert.match(fencing.text, /IS 302-2-76/)
+  for (const width of [390, 768, 1440]) {
+    await viewport(width, 900, width < 1024)
+    assert.equal(await evaluate('document.documentElement.scrollWidth > innerWidth'), false)
+  }
+  await navigate('/contact')
+  await until(`!!document.querySelector('a[href="tel:+917416649113"]')`)
+  for (const phone of ['6300182036', '9703864664', '7416649113']) {
+    assert.equal(await evaluate(`document.querySelectorAll('a[href="tel:+91${phone}"]').length >= 2`), true)
+  }
   console.log('Both CTAs navigate to their configured destinations')
   assert.deepEqual(errors, [])
   console.log('Hero browser smoke test passed')

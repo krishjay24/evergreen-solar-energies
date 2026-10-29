@@ -4,6 +4,8 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
 import { IconButton } from '@/components/common/IconButton'
 import { Logo } from '@/components/common/Logo'
+import { SecondaryButton } from '@/components/common/SecondaryButton'
+import { whatsappHref } from '@/lib/contact'
 import { PrimaryButton } from '@/components/common/PrimaryButton'
 import { ROUTES } from '@/config/routes'
 import { siteConfig } from '@/config/site'
@@ -17,9 +19,10 @@ import { DesktopNav } from './DesktopNav'
 import { MobileMenu } from './MobileMenu'
 
 const MOBILE_MENU_ID = 'mobile-menu'
-const DESKTOP_QUERY = '(min-width: 64rem)'
+const DESKTOP_QUERY = '(min-width: 80rem)'
 
 export function SiteHeader() {
+  const quotation = whatsappHref('heroQuotation')
   const scrolled = useScrolled()
   const location = useLocation()
   const [menuOpen, setMenuOpen] = useState(false)
@@ -61,15 +64,16 @@ export function SiteHeader() {
         )}
         aria-hidden="true"
       />
-      <Container className="flex h-(--header-height) items-center justify-between gap-4 lg:grid lg:grid-cols-[1fr_auto_1fr]">
+      <Container className="flex h-(--header-height) items-center justify-between gap-4 xl:grid xl:grid-cols-[auto_1fr_auto]">
         <Logo size="header" to={ROUTES.home} priority className="justify-self-start" />
 
-        <DesktopNav className="hidden lg:block" />
+        <DesktopNav className="hidden xl:block xl:justify-self-center" />
 
         <div className="flex items-center gap-2 justify-self-end">
           <PrimaryButton to={siteConfig.primaryCta.to} size="sm" icon={null} className="hidden md:inline-flex">
             {siteConfig.primaryCta.label}
           </PrimaryButton>
+          {quotation && <SecondaryButton href={quotation} target="_blank" rel="noopener noreferrer" size="sm" className="hidden md:inline-flex">Get a Quotation</SecondaryButton>}
           <IconButton
             ref={toggleRef}
             icon={menuOpen ? X : Menu}
@@ -78,7 +82,7 @@ export function SiteHeader() {
             aria-expanded={menuOpen}
             aria-controls={MOBILE_MENU_ID}
             onClick={() => setMenuOpen((open) => !open)}
-            className="lg:hidden"
+            className="xl:hidden"
           />
         </div>
       </Container>

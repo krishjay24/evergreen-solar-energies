@@ -89,11 +89,12 @@ test('publication fixture: canonical normalization, full schema, encoding, previ
       const graph = JSON.parse(seo.schemaJson(meta.schema))['@graph']
       assert.ok(graph.some(item => Array.isArray(item['@type']) && item['@type'].includes('LocalBusiness')))
       assert.ok(graph.some(item => item['@type'] === 'WebSite'))
+      assert.ok(graph.find(item => Array.isArray(item['@type']) && item['@type'].includes('LocalBusiness')).contactPoint.some(point => point.telephone === '+917416649113'))
       if (path !== '/') {
         const breadcrumbs = graph.find(item => item['@type'] === 'BreadcrumbList')
         assert.ok(breadcrumbs && breadcrumbs.itemListElement.length >= 2)
       } else assert.ok(!graph.some(item => item['@type'] === 'BreadcrumbList'))
-      if (path === '/solar-solutions') assert.equal(graph.filter(item => item['@type'] === 'Service').length, 3)
+      if (path === '/solar-solutions') assert.equal(graph.filter(item => item['@type'] === 'Service').length, 4)
       if (path.startsWith('/learning-hub/')) assert.ok(graph.some(item => item['@type'] === 'Article' && item.headline === meta.label))
       assert.ok(!seo.seoHead(path).includes('undefined'))
       assert.match(seo.seoHead(path), /property="og:image:width" content="1200"/)

@@ -12,7 +12,7 @@ interface SolarPhotoProps {
 export function SolarPhoto({ photo, className, sizes = '(min-width: 1024px) 50vw, 100vw', priority = false }: SolarPhotoProps) {
   const asset = photography[photo]
   return (
-    <span data-photo={photo} className={cn('relative block overflow-hidden', className)} title="Reference photograph — not an Evergreen installation. Photo credits are linked in the footer.">
+    <span data-photo={photo} className={cn('relative block overflow-hidden', className)} title={photo.endsWith('fencing') ? 'AI-generated illustration of Indian farmland fencing: concept only, not an Evergreen installation or installation guide.' : 'Reference photograph: not an Evergreen installation. Photo credits are linked in the footer.'}>
       <img
         src={`/images/solar/${photo}-960.webp`}
         srcSet={[480, 960, 1280].map(width => `/images/solar/${photo}-${width}.webp ${width}w`).join(', ')}

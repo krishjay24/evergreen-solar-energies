@@ -5,9 +5,11 @@ export const phoneHref = (phone: string) => `tel:+91${phone.replace(/\D/g, '').r
 export const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(siteConfig.contact.mapsQuery)}`
 export const mapsEmbedHref = `https://www.google.com/maps?q=${encodeURIComponent(siteConfig.contact.mapsQuery)}&output=embed`
 
-export type WhatsAppTopic = 'general' | 'residential' | 'commercial' | 'agricultural' | 'siteVisit' | 'quotation'
+export type WhatsAppTopic = 'general' | 'residential' | 'commercial' | 'agricultural' | 'siteVisit' | 'quotation' | 'fencing' | 'heroQuotation'
 
 const messages: Record<WhatsAppTopic, string> = {
+  heroQuotation: "Hello Evergreen Solar Energies! \u2600\ufe0f\n\nI'm interested in installing a solar system for my home/business.\n\nPlease share the available solar options, approximate pricing, and applicable government subsidy information.\n\nI'd like to request a quotation and arrange a site assessment.\n\nThank you! \ud83c\udf3f",
+  fencing: 'Hello Evergreen Solar Energies! I am interested in solar-powered electric fencing for my farmland. Please share fencing options and arrange a site inspection and customized quotation based on my farm boundaries and applicable safety requirements.',
   general: 'Hello Evergreen Solar Energies, I would like to know more about your solar installation services.',
   residential: 'Hello Evergreen Solar Energies, I would like to discuss residential rooftop solar.',
   commercial: 'Hello Evergreen Solar Energies, I would like to discuss commercial solar.',

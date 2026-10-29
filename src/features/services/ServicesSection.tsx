@@ -42,8 +42,8 @@ export function ServicesSection() {
               <SolarPhoto photo={`home-${service.id}`} className="size-full object-cover" />
             </motion.div>
           </AnimatePresence>
-          <span className="absolute bottom-5 left-5 rounded-full border border-line-strong bg-canvas/75 px-3 py-1.5 text-xs text-warm-white backdrop-blur-md">
-            Reference photo · Not an Evergreen project
+          <span className="absolute bottom-5 left-5 right-5 w-fit rounded-full border border-line-strong bg-canvas/75 px-3 py-1.5 text-xs text-warm-white backdrop-blur-md">
+            {service.id === 'fencing' ? 'AI-generated illustration' : 'Reference photo: not an Evergreen project'}
           </span>
         </div>
         <div className="surface-card flex flex-col p-6 md:p-9">
@@ -61,20 +61,20 @@ export function ServicesSection() {
                     : 'border-line-strong text-muted hover:border-gold/70 hover:text-warm-white'
                 }`}
               >
-                {item.id === 'agricultural' ? 'Agricultural' : item.id === 'residential' ? 'Residential' : 'Commercial'}
+                {item.id === 'fencing' ? 'Agricultre fencing' : item.id === 'agricultural' ? 'Agricultural' : item.id === 'residential' ? 'Residential' : 'Commercial'}
               </button>
             ))}
           </div>
           <AnimatePresence mode="wait">
             <motion.div key={service.id} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: 0.28 }} className="mt-10 flex flex-1 flex-col">
-              <span className="font-mono text-xs text-gold">0{services.indexOf(service) + 1} / 03</span>
+              <span className="font-mono text-xs text-gold">0{services.indexOf(service) + 1} / 0{services.length}</span>
               <h3 className="mt-4 text-display-md">{service.title}</h3>
               <p className="mt-5 max-w-prose text-base leading-7 text-muted">{service.short}</p>
               <p className="mt-4 max-w-prose text-sm leading-7 text-muted">{service.assessment}</p>
               <div className="mt-auto flex flex-wrap gap-3 pt-9">
-                <PrimaryButton to={`${ROUTES.quote}?project=${service.id}`} size="sm">Request consultation</PrimaryButton>
+                {service.id !== 'fencing' && <PrimaryButton to={`${ROUTES.quote}?project=${service.id}`} size="sm">Request consultation</PrimaryButton>}
                 <SecondaryButton to={`${ROUTES.solarSolutions}#${service.id}`} size="sm" icon={ArrowRight}>Explore details</SecondaryButton>
-                {whatsapp && <SecondaryButton href={whatsapp} target="_blank" rel="noopener noreferrer" size="sm">Discuss on WhatsApp</SecondaryButton>}
+                {whatsapp && <SecondaryButton href={whatsapp} target="_blank" rel="noopener noreferrer" size="sm">{service.id === 'fencing' ? 'Enquire About Solar Fencing' : 'Discuss on WhatsApp'}</SecondaryButton>}
               </div>
             </motion.div>
           </AnimatePresence>

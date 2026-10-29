@@ -15,7 +15,7 @@ export default function ContactPage() {
     <>
       <Section tone="alt">
         <SectionHeading as="h1" size="lg" eyebrow="Contact" title="Let's talk about your site." description={`Evergreen Solar Energies welcomes enquiries across ${serviceAreaNames.join(', ')}.${businessVerified ? '' : ' Business contact details require final verification before publication.'}`} />
-        <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_1.7fr_1.2fr]">
           {siteConfig.contact.phones.map((phone) => <a key={phone} href={phoneHref(phone)} className="surface-card flex min-h-32 flex-col justify-between p-6 transition-colors hover:border-gold/50"><Phone className="icon-lg text-gold" aria-hidden="true" /><span className="mt-4 text-sm">{phone}</span></a>)}
           <a href={`mailto:${siteConfig.contact.email}`} className="surface-card flex min-h-32 flex-col justify-between break-all p-6 transition-colors hover:border-gold/50"><Mail className="icon-lg text-gold" aria-hidden="true" /><span className="mt-4 text-sm">{siteConfig.contact.email}</span></a>
           <a href={mapsHref} target="_blank" rel="noopener noreferrer" className="surface-card flex min-h-32 flex-col justify-between p-6 transition-colors hover:border-gold/50"><MapPin className="icon-lg text-gold" aria-hidden="true" /><span className="mt-4 text-sm">Get directions · Kadapa</span></a>

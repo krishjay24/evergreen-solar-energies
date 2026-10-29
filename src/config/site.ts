@@ -18,7 +18,7 @@ export const siteConfig = {
   ],
   contact: {
     phone: '6300182036',
-    phones: ['6300182036', '9703864664'],
+    phones: ['6300182036', '9703864664', '7416649113'],
     email: 'evergreensolarenergies@gmail.com',
     whatsapp: env.VITE_CONTACT_WHATSAPP || '916300182036',
     address: '45/134-1-1-1, Balaji Nagar, Opposite Ganga Bhavani School, Behind Mahesh Smart, Kadapa.',

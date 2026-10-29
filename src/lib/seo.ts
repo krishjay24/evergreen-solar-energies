@@ -8,7 +8,7 @@ import { articlePhotos } from '@/data/photography'
 const pages: Record<string, { title: string; description: string; label: string; photo: string }> = {
   [ROUTES.home]: { title: 'Solar Services in Kadapa, Mydukur & Proddatur | Evergreen Solar Energies', description: siteConfig.description, label: 'Make the Sun Work for You.', photo: 'home-residential' },
   [ROUTES.about]: { title: 'About Evergreen Solar Energies | Solar Planning in Kadapa', description: 'Meet Evergreen Solar Energies: site assessment, system planning, equipment coordination and installation support in Kadapa, Mydukur and Proddatur, Andhra Pradesh.', label: 'About Evergreen', photo: 'home-about-team' },
-  [ROUTES.solarSolutions]: { title: 'Residential, Commercial & Ground-Mounted Solar | Evergreen', description: 'Explore residential rooftop, commercial and agricultural / ground-mounted solar enquiries in Kadapa, Mydukur and Proddatur. Suitability starts with a site review.', label: 'Solar Solutions', photo: 'solutions-commercial' },
+  [ROUTES.solarSolutions]: { title: 'Solar Solutions & Agricultural Electric Fencing | Evergreen', description: 'Explore residential rooftop, commercial and agricultural solar and solar-powered electric fencing in Kadapa, Mydukur and Proddatur. Suitability starts with a site review.', label: 'Solar Solutions', photo: 'solutions-commercial' },
   [ROUTES.journey]: { title: 'Solar Site Review & Installation Process | Evergreen Solar', description: 'Discover, understand, assess and connect. Learn how enquiry, site review, proposal, applicable approvals and installation guide a considered solar project.', label: 'How It Works', photo: 'journey-assess' },
   [ROUTES.projects]: { title: 'Approved Solar Project Stories | Evergreen Solar Energies', description: 'Evergreen Solar Energies publishes only genuine, customer-approved project stories. Verified installation photographs and details are awaiting approval.', label: 'Project Stories', photo: 'impact-clean' },
   [ROUTES.learning]: { title: 'Solar Learning Hub | Rooftop Solar Guides from Evergreen', description: 'Simple guides to rooftop solar, site preparation, equipment, electricity bills and maintenance. Confirm current requirements for your project and local DISCOM.', label: 'Solar Learning Hub', photo: 'learn-basics' },
@@ -49,7 +49,7 @@ export function getPageSeo(rawPath: string) {
     const business = `${origin}/#business`
     schema.push({ '@type': ['Organization', 'LocalBusiness'], '@id': business, name: siteConfig.name, url: origin,
       description: siteConfig.description, logo: `${origin}/images/logo/evergreen-logo-supplied-960.webp`,
-      telephone: `+91${siteConfig.contact.phone}`, email: siteConfig.contact.email,
+      telephone: `+91${siteConfig.contact.phone}`, contactPoint: siteConfig.contact.phones.map(phone => ({ '@type': 'ContactPoint', telephone: `+91${phone}`, contactType: 'customer service' })), email: siteConfig.contact.email,
       address: { '@type': 'PostalAddress', streetAddress: siteConfig.contact.address, addressLocality: 'Kadapa', addressRegion: 'Andhra Pradesh', addressCountry: 'IN' },
       areaServed: siteConfig.serviceAreas.map(area => ({ '@type': 'City', name: area.name, containedInPlace: { '@type': 'State', name: 'Andhra Pradesh' } })),
     }, { '@type': 'WebSite', '@id': `${origin}/#website`, url: origin, name: siteConfig.name, inLanguage: 'en-IN', publisher: { '@id': business } })

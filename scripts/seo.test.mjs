@@ -56,16 +56,19 @@ test('404 response and indexing rules exclude invalid routes and gated builds', 
   assert.match(html, /<h1[^>]*>Page not found/i)
   assert.equal(await read('_redirects'), '/* /404.html 404\n')
   const robots = await read('robots.txt')
+  const sitemap = await read('sitemap.xml')
+  assert.match(sitemap, /^<\?xml version="1.0" encoding="UTF-8"\?>/)
+  assert.match(sitemap, /<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">/)
   if (manifest.published) {
     assert.ok(robots.includes(`Sitemap: ${manifest.origin}/sitemap.xml`))
-    const sitemap = await read('sitemap.xml')
+    assert.ok(!(await read('_headers')).includes('X-Robots-Tag'))
     assert.equal((sitemap.match(/<url>/g) ?? []).length, manifest.routes.length)
     for (const route of manifest.routes) assert.ok(sitemap.includes(`<loc>${route.canonical}</loc>`))
     assert.ok(!sitemap.includes('/404') && !sitemap.includes('__styleguide'))
   } else {
     assert.match(robots, /Disallow: \//)
     assert.match(await read('_headers'), /X-Robots-Tag: noindex, nofollow/)
-    await assert.rejects(read('sitemap.xml'), { code: 'ENOENT' })
+    assert.equal((sitemap.match(/<loc>/g) ?? []).length, 0)
   }
 })
 
@@ -111,6 +114,11 @@ test('publication fixture: canonical normalization, full schema, encoding, previ
     assert.equal(publishedFiles.robots, `User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`)
     assert.ok(!publishedFiles.sitemap.includes('/404') && !publishedFiles.sitemap.includes('__styleguide'))
     assert.throws(() => discoveryFiles({ published: true, origin }, [{ canonical: 'https://different.invalid/' }]))
+    for (const gatedOrigin of [origin, null]) {
+      const gated = discoveryFiles({ published: false, origin: gatedOrigin }, [{ canonical: `${origin}/` }])
+      assert.equal(gated.robots, 'User-agent: *\nDisallow: /\n')
+      assert.ok(gated.sitemap.includes('</urlset>') && !gated.sitemap.includes('<loc>'))
+    }
 
     const { trackEvent } = await server.ssrLoadModule('/src/lib/analytics.ts')
     const events = []

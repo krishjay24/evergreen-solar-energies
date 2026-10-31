@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, rm } from 'node:fs/promises'
+import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { createServer } from 'vite'
 import { createSocialImage } from './social-images.mjs'
@@ -37,8 +37,7 @@ try {
   // Cache-Control rule, whose values could concatenate with asset directives.
   await writeFile(join(dist, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n${home.published ? '' : '  X-Robots-Tag: noindex, nofollow\n'}/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/images/*\n  Cache-Control: public, max-age=3600\n`)
   const discovery = discoveryFiles(home, entries)
-  if (discovery.sitemap) await writeFile(join(dist, 'sitemap.xml'), discovery.sitemap)
-  else await rm(join(dist, 'sitemap.xml'), { force: true })
+  await writeFile(join(dist, 'sitemap.xml'), discovery.sitemap)
   await writeFile(join(dist, 'robots.txt'), discovery.robots)
   await writeFile(join(dist, 'seo-manifest.json'), JSON.stringify({ published: home.published, origin: home.origin, routes: entries }, null, 2))
   console.log(`Prerendered ${entries.length} routes + 404 with branded social images. Indexing ${home.published ? 'enabled' : 'gated: configure VITE_SITE_URL and verify business details; previews stay noindex'}.`)

@@ -2,6 +2,14 @@
 
 Reviewed 28 October 2026. Local work only; no deployment, GitHub push or production credentials added.
 
+## Technical SEO step 1 — 31 October 2026
+
+- Root cause: missing production origin and pending business verification deliberately blocked indexing; the discovery generator removed the sitemap, causing the real 404 fallback to handle `/sitemap.xml`.
+- Owner approval was explicitly received in this session. Production configuration now uses the existing Netlify origin and enables the existing verification gate. No custom domain, content, layout, animation, WhatsApp or form changes were made.
+- Both discovery files are always emitted. Approved production output has 17 sitemap URLs, correct canonical URLs, `index,follow` on public routes and no global `X-Robots-Tag`. Unapproved/preview output retains the deliberate indexing block and an empty XML sitemap. Existing static files shadow the unchanged Netlify 404 rule.
+- Passed: `npm.cmd run lint`, `npm.cmd run build`, all four `npm.cmd run test:seo` tests, and `npm.cmd run test:seo:browser` (text/XML HTTP responses, static content without JavaScript, navigation, metadata, six viewport widths, forms and no runtime errors). Sitemap also parsed successfully with an XML parser. The sandboxed browser attempt stalled; the subsequent permitted browser run passed.
+- No additional business verification is pending for this step. No push or deployment occurred. Live requests were unavailable from this environment; Netlify dashboard environment overrides and actual hosted headers still need checking after an authorized deployment.
+
 ## Completed
 
 - One metadata resolver, `src/lib/seo.ts`, supplies initial HTML and client navigation: unique titles/descriptions, canonical URLs, robots, Open Graph, Twitter large-image cards and JSON-LD. Existing title callers use the same resolver.
@@ -16,9 +24,9 @@ Reviewed 28 October 2026. Local work only; no deployment, GitHub push or product
 
 ## Publication/configuration required
 
-1. Set **`VITE_SITE_URL`** to the client's actual HTTPS production origin, with no path, query, credentials or fragment. No example domain is embedded in production. Rebuild after changes.
-2. Verify the central company name, address, primary/secondary phone, email and service areas with the client before setting **`VITE_BUSINESS_DETAILS_VERIFIED=true`**. Until then, indexing stays disabled and business schema is omitted. Without a production origin, absolute canonical/social URLs are intentionally omitted.
-3. Netlify deploy previews/branch deploys remain noindex even when production business details are verified. The published production context enables the sitemap, robots access and indexing metadata. With incomplete configuration, builds still contain full page content but emit blocking robots/noindex headers and omit the sitemap.
+1. **`VITE_SITE_URL=https://evergreen-solar-energies.netlify.app`** is configured in `.env.production` and `netlify.toml`. No custom domain purchase is required. Check for conflicting hosting environment overrides and rebuild after changes.
+2. The authorized owner confirmed the company name, address, all three phones, email and service areas in this session on **31 October 2026**. **`VITE_BUSINESS_DETAILS_VERIFIED=true`** is now configured in `.env.production` and `netlify.toml`. Reconfirm if business details change. Without verification, indexing stays disabled and business schema is omitted.
+3. Netlify deploy previews/branch deploys remain noindex even when production business details are verified. Every build emits actual `robots.txt` and `sitemap.xml` files. Before approval, the sitemap is valid empty XML, robots blocks crawling, and public pages retain deliberate noindex metadata/headers. Approved production builds list all 17 current public routes, allow crawling, reference the sitemap and remove the global noindex header. Canonicals use the configured origin in either case. The 404 and photography credits intentionally remain noindex.
 4. Confirm the Netlify primary domain and HTTPS redirects; redirect aliases to that primary domain in hosting settings. Check live nested pages, 404 statuses, response headers and image URLs after an authorized deployment. The local static-host tests model these rules; they do not prove Netlify's live behavior.
 5. **Existing backend blocker:** `netlify/functions/` and `netlify/lib/enquiries.mjs` were absent at review start. The SEO work does not recreate them. Restore the approved backend source and its server-only configuration before relying on online submissions. Never put Resend credentials into `VITE_` variables.
 

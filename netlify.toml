@@ -4,6 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  VITE_SITE_URL = "https://evergreen-solar-energies.netlify.app"
+  # Owner confirmed the business details on 2026-10-31; previews stay noindex.
+  VITE_BUSINESS_DETAILS_VERIFIED = "true"
 
 # Route HTML, cache headers and the real 404 fallback are generated at build time.
 # Do not add an SPA /* -> /index.html 200 rule: it would create soft 404s.

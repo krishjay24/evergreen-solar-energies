@@ -36,6 +36,12 @@ try {
   await mkdir(output, { recursive: true })
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
   const origin = `http://127.0.0.1:${server.address().port}`
+  for (const [path, type] of [['/robots.txt', 'text/plain'], ['/sitemap.xml', 'application/xml']]) {
+    const response = await fetch(origin + path)
+    assert.equal(response.status, 200)
+    assert.equal(response.headers.get('content-type'), type)
+    assert.ok(!(await response.text()).includes('<!doctype html>'))
+  }
   for (const route of manifest.routes) {
     const response = await fetch(origin + route.path)
     assert.equal(response.status, 200); assert.match(await response.text(), /<main[\s>]/)

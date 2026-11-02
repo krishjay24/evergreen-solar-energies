@@ -147,3 +147,44 @@ test('Solar Fit rejects one byte over the combined limit for single and multiple
     assert.deepEqual(await response.json(), { error: uploadLimits.combinedSizeMessage })
   }
 })
+
+test('server rejects oversized contact payloads and malformed multipart fields before delivery', async () => {
+  const contactHandler = createEnquiryHandler('contact', { env, fetchImpl: noDelivery })
+  const oversized = request('contact', { ...contact, message: 'x'.repeat(17_000) })
+  const response = await contactHandler(oversized)
+  assert.equal(response.status, 413)
+  assert.equal(response.headers.get('cache-control'), 'no-store')
+  assert.equal((await response.json()).received, undefined)
+  const solarHandler = createEnquiryHandler('solar-fit', { env, fetchImpl: noDelivery })
+  const extra = request('solar-fit')
+  const form = await extra.formData()
+  form.set('to', 'attacker@example.test')
+  const invalid = new Request(extra.url, { method: 'POST', headers: { Origin: env.ENQUIRY_ALLOWED_ORIGIN }, body: form })
+  assert.equal((await solarHandler(invalid)).status, 400)
+  const malformed = new FormData()
+  malformed.set('details', '{not-json')
+  assert.equal((await solarHandler(new Request(extra.url, { method: 'POST', headers: { Origin: env.ENQUIRY_ALLOWED_ORIGIN }, body: malformed }))).status, 400)
+})
+
+test('configuration and browser origin failures never contact the email provider', async () => {
+  for (const badEnv of [
+    { ...env, RESEND_API_KEY: '' },
+    { ...env, ENQUIRY_EMAIL_FROM: 'not-an-email' },
+    { ...env, ENQUIRY_ALLOWED_ORIGIN: 'http://remote.example.test' },
+    { ...env, ENQUIRY_ALLOWED_ORIGIN: `${env.ENQUIRY_ALLOWED_ORIGIN}/` },
+  ]) {
+    assert.equal((await createEnquiryHandler('contact', { env: badEnv, fetchImpl: noDelivery })(request('contact'))).status, 503)
+  }
+  const crossSite = request('contact')
+  crossSite.headers.set('sec-fetch-site', 'cross-site')
+  assert.equal((await createEnquiryHandler('contact', { env, fetchImpl: noDelivery })(crossSite)).status, 403)
+})
+
+test('provider acceptance must include a nonempty receipt; no private provider detail leaks', async () => {
+  for (const kind of ['contact', 'solar-fit']) {
+    const handler = createEnquiryHandler(kind, { env, fetchImpl: async () => Response.json({ id: '  ', error: 'private-details' }) })
+    const response = await handler(request(kind))
+    assert.equal(response.status, 502)
+    assert.ok(!JSON.stringify(await response.json()).includes('private-details'))
+  }
+})

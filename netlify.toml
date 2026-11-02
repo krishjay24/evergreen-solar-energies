@@ -7,7 +7,10 @@
   VITE_SITE_URL = "https://evergreen-solar-energies.netlify.app"
   # Owner confirmed the business details on 2026-10-31; previews stay noindex.
   VITE_BUSINESS_DETAILS_VERIFIED = "true"
+  VITE_ANALYTICS_ENABLED = "true"
+  VITE_ENQUIRY_ENDPOINT = "/.netlify/functions/solar-fit"
+  VITE_CONTACT_ENDPOINT = "/.netlify/functions/contact"
 
 # Route HTML, cache headers and the real 404 fallback are generated at build time.
 # Do not add an SPA /* -> /index.html 200 rule: it would create soft 404s.
-# Existing same-origin /.netlify/functions/* endpoints remain reserved to Netlify.
+# /.netlify/functions/* paths are served by the Netlify Function entry points.

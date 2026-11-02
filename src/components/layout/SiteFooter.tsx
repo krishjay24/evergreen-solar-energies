@@ -7,6 +7,7 @@ import { serviceAreaNames, siteConfig } from '@/config/site'
 import { services } from '@/data/services'
 import { mapsHref, phoneHref } from '@/lib/contact'
 import { trackEvent } from '@/lib/analytics'
+import { openAnalyticsPreferences } from '@/lib/ga4'
 import { Container } from './Container'
 
 export function SiteFooter() {
@@ -52,10 +53,9 @@ export function SiteFooter() {
         <div className="flex flex-wrap items-center justify-between gap-4 border-t border-line pt-6 pr-16 text-xs text-muted md:pr-0">
           <p>&copy; {new Date().getFullYear()} KJ Tech Solutions. All rights reserved.</p>
           <p>Serving {serviceAreaNames.join(' · ')}</p>
-          <div className="flex flex-wrap gap-5"><Link to={ROUTES.privacy} className="hover:text-gold-accent">Privacy Policy</Link><Link to={ROUTES.terms} className="hover:text-gold-accent">Terms</Link><a href="/images/solar/credits.html" className="hover:text-gold-accent">Photo credits</a></div>
+          <div className="flex flex-wrap gap-5"><Link to={ROUTES.privacy} className="hover:text-gold-accent">Privacy Policy</Link><button type="button" onClick={openAnalyticsPreferences} className="hover:text-gold-accent">Analytics preferences</button><Link to={ROUTES.terms} className="hover:text-gold-accent">Terms</Link><a href="/images/solar/credits.html" className="hover:text-gold-accent">Photo credits</a></div>
         </div>
       </Container>
     </footer>
   )
 }
-

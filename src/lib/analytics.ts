@@ -1,6 +1,6 @@
 import { getPageSeo } from '@/lib/seo'
 
-export type SiteEvent = 'page_view' | 'phone_click' | 'email_click' | 'whatsapp_click' | 'site_visit_click' | 'solar_fit_open' | 'enquiry_confirmed'
+export type SiteEvent = 'page_view' | 'phone_click' | 'email_click' | 'whatsapp_click' | 'site_visit_click' | 'quotation_click' | 'solar_fit_open' | 'enquiry_confirmed'
 
 /** Provider hook only: no personal form values are included or sent without configured analytics. */
 export function trackEvent(name: SiteEvent, channel?: 'contact' | 'solar_fit'): void {
